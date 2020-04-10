@@ -6,9 +6,6 @@ print("Initializing 'recipe_changes.zs'...");
 
 recipes.remove(<thermalexpansion:augment:336>);
 
-recipes.remove(<mekanism:jetpack>);
-recipes.remove(<mekanism:armoredjetpack>);
-
 recipes.remove(<tconstruct:slimesling>);
 
 recipes.remove(<tconstruct:slime_boots:0>);
@@ -180,17 +177,5 @@ recipes.addShaped(<minecraft:skull:1>,
 		[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
 	]
 );
-
-recipes.remove(<sgcraft:rfpowerunit>);
-recipes.addShaped(<sgcraft:rfpowerunit>, 
-	[
-		[<thermalfoundation:material:514>, <thermalfoundation:material:514>, <thermalfoundation:material:514>],
-		[<thermalexpansion:frame:128>, <thermalfoundation:material:513>, <thermalexpansion:frame:128>],
-		[<thermalfoundation:material:162>, <ore:ingotCopper>, <thermalfoundation:material:162>]
-	]
-);
-
-recipes.remove(<sgcraft:naquadah>);
-recipes.addShapeless(<sgcraft:naquadah>, [<minecraft:coal>, <minecraft:slime_ball>, <minecraft:blaze_powder>]);
 
 print("Initialized 'recipe_changes.zs'");
