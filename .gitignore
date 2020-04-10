@@ -19,3 +19,11 @@
 .minecraft/local/client/sidebar_buttons.json
 .minecraft/local/client/ftbutilities.cfg
 .minecraft/local/client/ftblib.cfg
+.minecraft/config/splash.properties
+*.gz
+.minecraft/optionsof.txt
+
+.minecraft/config/jei/worldSettings.cfg
+.minecraft/optionsshaders.txt
+natives/META-INF/MANIFEST.MF
+.minecraft/config/InvTweaks.cfg
