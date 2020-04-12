@@ -66,19 +66,19 @@
     "type": "cluster",
     "ore": "minecraft:diamond_ore",
     "stone": "minecraft:stone",
-    "rarity": 10,
+    "rarity": 100,
     "count": 3,
     "min_y": 0,
     "max_y": 35,
-    "density": 30,
+    "density": 50,
     "vertical_size": 5,
-    "horizontal_size": 20
+    "horizontal_size": 10
   },
   "emerald_ore_example": {
     "type": "cluster",
     "ore": "minecraft:emerald_ore",
     "stone": "minecraft:stone",
-    "rarity": 10,
+    "rarity": 50,
     "count": 3,
     "min_y": 0,
     "max_y": 40,
