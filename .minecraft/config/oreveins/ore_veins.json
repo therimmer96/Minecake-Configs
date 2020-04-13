@@ -191,7 +191,8 @@
     "rarity": 100,
     "count": 1,
     "horizontal_size": 30,
-    "vertical_size": 20
+    "vertical_size": 20,
+	"density": 750
   },
   "oreNickel": {
     "type": "cluster",
