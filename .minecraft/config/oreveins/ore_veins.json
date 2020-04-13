@@ -125,8 +125,8 @@
     "min_y": 0,
     "max_y": 70,
     "density": 50,
-    "vertical_size": 4,
-    "horizontal_size": 9,
+    "vertical_size": 9,
+    "horizontal_size": 12,
     "biomes": [
       "mountain",
       "cold",
@@ -135,6 +135,7 @@
       "mutated_extreme_hills",
       "mutated_extreme_hills_with_trees"
     ],
+	
 	"conditions": [
 	   {
 		 "type": "touching",
