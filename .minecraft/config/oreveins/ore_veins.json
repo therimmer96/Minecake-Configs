@@ -6,6 +6,7 @@
     "density": 900,
     "rarity": 52,
     "count": 5,
+	"clusters": 4,
     "horizontal_size": 11
   },
   "gold_ore_example": {
