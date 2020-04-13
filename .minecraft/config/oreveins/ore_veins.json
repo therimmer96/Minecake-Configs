@@ -212,7 +212,7 @@
     "rarity": 100,
     "count": 1,
     "horizontal_size": 10,
-    "vertical_size": 35
+    "vertical_size": 35,
 	"density": 1000,
   },
   "orePlatinum": {
