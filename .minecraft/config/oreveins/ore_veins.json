@@ -4,7 +4,7 @@
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
     "density": 1000,
-    "rarity": 52,
+      "rarity": 52,
     "count": 5,
     "horizontal_size": 11
   },
@@ -61,7 +61,7 @@
     "max_y": 35,
     "density": 500,
     "vertical_size": 4,
-    "horizontal_size": 5
+    "horizontal_size": 9
   },
   "emerald_ore_example": {
     "type": "cluster",
@@ -90,9 +90,96 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 800,
+    "rarity": 200,
     "count": 1,
     "horizontal_size": 70,
-    "density": 800
+    "density": 1000
+  },
+  "oreTin": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 1
+    },
+    "stone": "minecraft:stone",
+    "rarity": 200,
+    "count": 1,
+    "horizontal_size": 40,
+    "density": 1000
+  },
+  "oreSilver": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 2
+    },
+    "stone": "minecraft:stone",
+    "rarity": 150,
+    "count": 1,
+    "horizontal_size": 50
+  },
+  "oreLead": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 3
+    },
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "count": 1,
+    "horizontal_size": 40
+  },
+  "oreAluminium": {
+    "type": "sphere",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 4
+    },
+    "rarity": 60,
+    "count": 1,
+    "horizontal_size": 30,
+    "vertical_size": 20,
+    "density": 100
+  },
+  "oreNickel": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 5
+    },
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "count": 1,
+    "horizontal_size": 10,
+    "vertical_size": 35,
+    "density": 1000
+  },
+  "oreCertusQuartz": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "appliedenergistics2:quartz_ore",
+        "weight": 5
+      },
+      {
+        "block": "appliedenergistics2:charged_quartz_ore",
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 60,
+    "density": 500,
+    "vertical_size": 12,
+    "horizontal_size": 6
+  },
+  "oreYellorite": {
+    "type": "cluster",
+    "ore": "bigreactors:oreyellorite",
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "count": 1,
+    "horizontal_size": 5,
+    "vertical_size": 35,
+    "density": 1000
   }
 }
