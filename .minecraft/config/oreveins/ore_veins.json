@@ -51,7 +51,7 @@
     "vertical_size": 26,
     "horizontal_size": 20
   },
-  "diamond": {
+  "standard_diamond": {
     "type": "cluster",
     "ore": "minecraft:diamond_ore",
     "stone": "minecraft:stone",
@@ -61,7 +61,26 @@
     "max_y": 35,
     "density": 400,
     "vertical_size": 3,
-    "horizontal_size": 10
+    "horizontal_size": 7
+  },
+  "cave_diamond": {
+    "type": "cluster",
+    "ore": "minecraft:diamond_ore",
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "count": 3,
+	"min_y": 0,
+	"max_y": 35,
+	"density": 50,
+	"vertical_size": 6,
+	"horizontal_size": 12,
+	"conditions": [
+	   {
+		 "type": "touching",
+		 "block": "minecraft:air",
+		 "min": 1
+	   }
+   ]
   },
   "emerald_ore_example": {
     "type": "cluster",
@@ -82,6 +101,46 @@
       "mutated_extreme_hills",
       "mutated_extreme_hills_with_trees"
     ]
+  },
+  "mountain_cave_gems": {
+    "type": "cluster",
+	"ore": [
+      {
+        "ore": "minecraft:emerald_ore",
+        "weight": 64
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 1
+      },
+	  {
+		"block": "appliedenergistics2:quartz_ore",
+		"weight": 5
+	  }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 30,
+    "count": 3,
+    "min_y": 0,
+    "max_y": 40,
+    "density": 60,
+    "vertical_size": 3,
+    "horizontal_size": 7,
+    "biomes": [
+      "mountain",
+      "cold",
+      "extreme_hills",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees"
+    ],
+	"conditions": [
+	   {
+		 "type": "touching",
+		 "block": "minecraft:air",
+		 "min": 1
+	   }
+   ]
   },
   "oreCopper": {
     "type": "cluster",
