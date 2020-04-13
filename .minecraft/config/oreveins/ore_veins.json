@@ -113,7 +113,7 @@
     "rarity": 200,
     "count": 1,
     "horizontal_size": 70,
-	"density": 1000,
+	"density": 1000
   },
   "oreTin": {
     "type": "cluster",
@@ -133,7 +133,7 @@
     "rarity": 50,
     "count": 1,
     "horizontal_size": 50,
-	"density": 1000,
+	"density": 1000
   },
   "oreSilver": {
     "type": "cluster",
@@ -213,7 +213,7 @@
     "count": 1,
     "horizontal_size": 10,
     "vertical_size": 35,
-	"density": 1000,
+	"density": 1000
   },
   "orePlatinum": {
     "type": "curve",
@@ -278,6 +278,6 @@
     "count": 1,
     "horizontal_size": 10,
     "vertical_size": 35,
-	"density": 1000,
+	"density": 1000
   }
 }
