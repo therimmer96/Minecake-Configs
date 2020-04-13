@@ -125,12 +125,12 @@
       {
 		"block": "thermalfoundation:ore",
 		"meta": 3,
-		"weight": 49,
+		"weight": 49
       },
       {
         "block": "thermalfoundation:ore",
 		"meta": 2,
-        "weight": 1,
+        "weight": 1
       }
     ],
     "stone": "minecraft:stone",
