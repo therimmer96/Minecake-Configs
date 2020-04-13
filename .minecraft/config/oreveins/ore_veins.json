@@ -28,7 +28,7 @@
     "inverted": true
   },
   "coal_ore_example": {
-    "type": "sphere",
+    "type": "cluster",
     "ore": [
       {
         "ore": "oreCoal",
@@ -48,7 +48,7 @@
     "rarity": 60,
     "min_y": 32,
     "max_y": 128,
-    "density": 1000,
+    "density": 850,
     "vertical_size": 15,
     "horizontal_size": 30
   },
@@ -127,12 +127,12 @@
         "block": "minecraft:red_flower",
         "meta": 8
       },
-      "rarity": 5,
+      "rarity": 4,
       "max_depth": 23
     },
-    "rarity": 50,
+    "rarity": 150,
     "count": 1,
-    "horizontal_size": 50,
+    "horizontal_size": 60,
 	"density": 1000
   },
   "oreSilver": {
