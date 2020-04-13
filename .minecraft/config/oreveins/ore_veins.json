@@ -17,7 +17,7 @@
     "rarity": 80,
     "min_y": 8,
     "max_y": 50,
-    "density": 600,
+    "density": 400,
     "vertical_size": 16,
     "horizontal_size": 13,
     "inverted": true
@@ -104,27 +104,14 @@
       "mutated_extreme_hills_with_trees"
     ]
   },
-  "mountain_gems": {
+  "mountain_emeralds": {
     "type": "cluster",
-	"ore": [
-      {
-        "ore": "minecraft:emerald_ore",
-        "weight": 37
-      },
-      {
-        "block": "minecraft:diamond_ore",
-        "weight": 1
-      },
-	  {
-		"block": "appliedenergistics2:quartz_ore",
-		"weight": 2
-	  }
-    ],
+    "ore": "minecraft:emerald_ore",
     "stone": "minecraft:stone",
     "rarity": 40,
-    "count": 7,
+    "count": 3,
     "min_y": 0,
-    "max_y": 70,
+    "max_y": 75,
     "density": 50,
     "vertical_size": 9,
     "horizontal_size": 12,
@@ -136,7 +123,42 @@
       "mutated_extreme_hills",
       "mutated_extreme_hills_with_trees"
     ],
-	
+	"conditions": [
+	   {
+		 "type": "touching",
+		 "block": "minecraft:air",
+		 "min": 1
+	   }
+    ]
+  },
+  "mountain_certus_quartz": {
+    "type": "cluster",
+    "ore": [
+      {
+        "block": "appliedenergistics2:quartz_ore",
+        "weight": 5
+      },
+      {
+        "block": "appliedenergistics2:charged_quartz_ore",
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 50,
+    "count": 3,
+    "min_y": 0,
+    "max_y": 75,
+    "density": 50,
+    "vertical_size": 9,
+    "horizontal_size": 12,
+    "biomes": [
+      "mountain",
+      "cold",
+      "extreme_hills",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees"
+    ],
 	"conditions": [
 	   {
 		 "type": "touching",
