@@ -67,7 +67,7 @@
     "type": "cluster",
     "ore": "minecraft:diamond_ore",
     "stone": "minecraft:stone",
-    "rarity": 100,
+    "rarity": 150,
     "count": 3,
 	"min_y": 0,
 	"max_y": 35,
@@ -82,27 +82,27 @@
 	   }
    ]
   },
-  "emerald_ore_example": {
+  "emerald_ore": {
     "type": "cluster",
     "ore": "minecraft:emerald_ore",
     "stone": "minecraft:stone",
-    "rarity": 66,
+	"clusters": 7,
+    "rarity": 120,
     "count": 3,
     "min_y": 0,
-    "max_y": 40,
-    "density": 30,
+    "max_y": 60,
+    "density": 60,
     "vertical_size": 7,
-    "horizontal_size": 26,
+    "horizontal_size": 13,
     "biomes": [
       "mountain",
-      "cold",
       "extreme_hills",
       "extreme_hills_with_trees",
       "mutated_extreme_hills",
       "mutated_extreme_hills_with_trees"
     ]
   },
-  "mountain_cave_gems": {
+  "mountain_gems": {
     "type": "cluster",
 	"ore": [
       {
@@ -120,12 +120,12 @@
     ],
     "stone": "minecraft:stone",
     "rarity": 30,
-    "count": 3,
+    "count": 7,
     "min_y": 0,
-    "max_y": 40,
-    "density": 60,
-    "vertical_size": 3,
-    "horizontal_size": 7,
+    "max_y": 70,
+    "density": 50,
+    "vertical_size": 4,
+    "horizontal_size": 9,
     "biomes": [
       "mountain",
       "cold",
@@ -168,6 +168,7 @@
   },
   "oreSilver": {
     "type": "cluster",
+	"clusters": 5,
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 2
