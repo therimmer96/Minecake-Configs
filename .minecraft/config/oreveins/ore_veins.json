@@ -3,7 +3,7 @@
     "type": "cluster",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
-    "density": 900,
+    "density": 650,
     "rarity": 52,
     "count": 5,
 	"clusters": 4,
