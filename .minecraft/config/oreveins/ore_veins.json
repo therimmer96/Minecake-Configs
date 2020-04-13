@@ -108,7 +108,7 @@
 	"ore": [
       {
         "ore": "minecraft:emerald_ore",
-        "weight": 64
+        "weight": 37
       },
       {
         "block": "minecraft:diamond_ore",
@@ -116,11 +116,11 @@
       },
 	  {
 		"block": "appliedenergistics2:quartz_ore",
-		"weight": 5
+		"weight": 2
 	  }
     ],
     "stone": "minecraft:stone",
-    "rarity": 30,
+    "rarity": 40,
     "count": 7,
     "min_y": 0,
     "max_y": 70,
@@ -142,7 +142,7 @@
 		 "block": "minecraft:air",
 		 "min": 1
 	   }
-   ]
+    ]
   },
   "oreCopper": {
     "type": "cluster",
