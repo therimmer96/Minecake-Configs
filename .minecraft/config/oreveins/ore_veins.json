@@ -225,7 +225,7 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 210,
+    "rarity": 215,
     "count": 1,
     "horizontal_size": 36,
     "density": 200
@@ -287,7 +287,7 @@
     "stone": "minecraft:stone",
     "rarity": 80,
     "count": 1,
-    "horizontal_size": 11,
+    "horizontal_size": 13,
     "vertical_size": 40,
     "density": 50
   },
@@ -363,7 +363,7 @@
 	"max_y": 45,
 	"density": 60,
 	"vertical_size": 20,
-	"horizontal_size": 8
+	"horizontal_size": 10
   },
   "oreCertusQuartz": {
     "type": "cluster",
