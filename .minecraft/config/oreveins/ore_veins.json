@@ -144,9 +144,18 @@
       "mutated_extreme_hills_with_trees"
     ]
   },
-  "mountain_emeralds": {
+  "mountain_gems": {
     "type": "cluster",
-    "ore": "minecraft:emerald_ore",
+    "ore": [
+      {
+        "block": "minecraft:emerald_ore",
+        "weight": 25
+      },
+      {
+        "block": "mysticalworld:amethyst_ore",
+        "weight": 1
+      }
+    ],
     "stone": "minecraft:stone",
     "rarity": 30,
     "count": 5,
