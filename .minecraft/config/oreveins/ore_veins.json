@@ -20,16 +20,20 @@
 	"clusters": 4,
     "horizontal_size": 35
   },
-  "gold_ore_example": {
+  "gold_ore": {
     "type": "cone",
 	"ore": [
       {
         "ore": "minecraft:gold_ore",
-        "weight": 54
+        "weight": 49
       },
+	  {
+		"block": "minecraft:gold_block",
+		"weight": 3
+	  }
       {
         "block": "appliedenergistics2:quartz_ore",
-        "weight": 5
+        "weight": 7
       },
       {
         "block": "appliedenergistics2:charged_quartz_ore",
