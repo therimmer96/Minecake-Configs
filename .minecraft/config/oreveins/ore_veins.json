@@ -22,7 +22,20 @@
   },
   "gold_ore_example": {
     "type": "cone",
-    "ore": "minecraft:gold_ore",
+	"ore": [
+      {
+        "ore": "minecraft:gold_ore",
+        "weight": 54
+      },
+      {
+        "block": "appliedenergistics2:quartz_ore",
+        "weight": 5
+      },
+      {
+        "block": "appliedenergistics2:charged_quartz_ore",
+        "weight": 1
+      }
+    ],
     "stone": "minecraft:stone",
     "rarity": 80,
     "min_y": 8,
