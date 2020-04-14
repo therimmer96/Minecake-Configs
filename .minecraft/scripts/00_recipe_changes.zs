@@ -83,6 +83,21 @@ recipes.remove(<thermalfoundation:armor.plate_constantan>);
 recipes.remove(<thermalfoundation:armor.legs_constantan>);
 recipes.remove(<thermalfoundation:armor.boots_constantan>);
 
+recipes.remove(<tcomplement:manyullyn_helmet>);
+recipes.remove(<tcomplement:manyullyn_chestplate>);
+recipes.remove(<tcomplement:manyullyn_leggings>);
+recipes.remove(<tcomplement:manyullyn_boots>);
+
+recipes.remove(<tcomplement:knightslime_helmet>);
+recipes.remove(<tcomplement:knightslime_chestplate>);
+recipes.remove(<tcomplement:knightslime_leggings>);
+recipes.remove(<tcomplement:knightslime_boots>);
+
+recipes.remove(<tcomplement:steel_helmet>);
+recipes.remove(<tcomplement:steel_chestplate>);
+recipes.remove(<tcomplement:steel_leggings>);
+recipes.remove(<tcomplement:steel_boots>);
+
 recipes.remove(<extrautils2:angelring:0>);
 recipes.remove(<extrautils2:angelring:1>);
 recipes.remove(<extrautils2:angelring:2>);
