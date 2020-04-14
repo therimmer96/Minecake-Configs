@@ -105,7 +105,7 @@
     "type": "cluster",
     "ore": "minecraft:diamond_ore",
     "stone": "minecraft:stone",
-    "rarity": 150,
+    "rarity": 75,
     "count": 3,
 	"min_y": 0,
 	"max_y": 35,
@@ -285,6 +285,80 @@
     "horizontal_size": 11,
     "vertical_size": 40,
     "density": 50
+  },
+  "cavePlatinum": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 6
+    },
+    "stone": "minecraft:stone",
+    "rarity": 80,
+    "count": 3,
+	"min_y": 0,
+	"max_y": 50,
+	"density": 80,
+	"vertical_size": 6,
+	"horizontal_size": 15,
+	"conditions": [
+	   {
+		 "type": "touching",
+		 "block": "minecraft:air",
+		 "min": 1
+	   }
+   ]
+  },
+  "richPlatinum": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 6
+    },
+    "stone": "minecraft:stone",
+    "rarity": 400,
+    "count": 3,
+	"min_y": 0,
+	"max_y": 50,
+	"density": 60,
+	"vertical_size": 7,
+	"horizontal_size": 22,
+  },
+  "caveIridium": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 7
+    },
+    "stone": "minecraft:stone",
+    "rarity": 80,
+    "count": 3,
+	"min_y": 0,
+	"max_y": 50,
+	"density": 80,
+	"vertical_size": 6,
+	"horizontal_size": 20,
+	"conditions": [
+	   {
+		 "type": "touching",
+		 "block": "minecraft:air",
+		 "min": 1
+	   }
+   ]
+  },
+    "richIridium": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 7
+    },
+    "stone": "minecraft:stone",
+    "rarity": 400,
+    "count": 3,
+	"min_y": 0,
+	"max_y": 50,
+	"density": 60,
+	"vertical_size": 5,
+	"horizontal_size": 19,
   },
   "oreCertusQuartz": {
     "type": "cluster",
