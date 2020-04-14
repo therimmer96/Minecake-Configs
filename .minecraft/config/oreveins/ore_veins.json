@@ -325,7 +325,7 @@
 	"max_y": 50,
 	"density": 60,
 	"vertical_size": 7,
-	"horizontal_size": 22,
+	"horizontal_size": 22
   },
   "caveIridium": {
     "type": "cluster",
@@ -362,7 +362,7 @@
 	"max_y": 50,
 	"density": 60,
 	"vertical_size": 5,
-	"horizontal_size": 19,
+	"horizontal_size": 19
   },
   "oreCertusQuartz": {
     "type": "cluster",
