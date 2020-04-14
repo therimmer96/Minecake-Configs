@@ -8,7 +8,7 @@
     "count": 5,
 	"clusters": 7,
 	"vertical_size": 5,
-    "horizontal_size": 11
+    "horizontal_size": 14
   },
   "gold_ore_example": {
     "type": "cone",
