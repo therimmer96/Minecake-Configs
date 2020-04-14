@@ -65,7 +65,7 @@
     "vertical_size": 15,
     "horizontal_size": 40
   },
-  "redstone_ore_example": {
+  "redstone_ore": {
     "type": "cone",
     "ore": "minecraft:redstone_ore",
     "stone": "minecraft:stone",
@@ -75,6 +75,18 @@
     "density": 140,
     "vertical_size": 26,
     "horizontal_size": 30,
+	"shape": 0.15
+  },
+    "lapis_ore": {
+    "type": "cone",
+    "ore": "minecraft:lapis_ore",
+    "stone": "minecraft:stone",
+    "rarity": 45,
+    "min_y": 0,
+    "max_y": 40,
+    "density": 140,
+    "vertical_size": 10,
+    "horizontal_size": 15,
 	"shape": 0.15
   },
   "standard_diamond": {
