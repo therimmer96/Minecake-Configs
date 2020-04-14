@@ -183,11 +183,11 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 250,
+    "rarity": 170,
     "count": 1,
 	"clusters":10,
     "horizontal_size": 32,
-    "density": 500
+    "density": 120
   },
   "oreTin": {
     "type": "cluster",
@@ -196,7 +196,7 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 350,
+    "rarity": 200,
     "count": 1,
     "horizontal_size": 40,
     "density": 500
