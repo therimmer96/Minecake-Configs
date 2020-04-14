@@ -109,10 +109,10 @@
     "ore": "minecraft:emerald_ore",
     "stone": "minecraft:stone",
     "rarity": 30,
-    "count": 3,
+    "count": 5,
     "min_y": 0,
     "max_y": 75,
-    "density": 70,
+    "density": 110,
     "vertical_size": 9,
     "horizontal_size": 15,
     "biomes": [
@@ -147,7 +147,7 @@
     "count": 3,
     "min_y": 0,
     "max_y": 75,
-    "density": 90,
+    "density": 110,
     "vertical_size": 9,
     "horizontal_size": 20,
     "biomes": [
@@ -172,7 +172,7 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 700,
+    "rarity": 350,
     "count": 1,
     "horizontal_size": 55,
     "density": 650
@@ -184,7 +184,7 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 850,
+    "rarity": 400,
     "count": 1,
     "horizontal_size": 60,
     "density": 680
@@ -197,7 +197,7 @@
       "meta": 2
     },
     "stone": "minecraft:stone",
-    "rarity": 1100,
+    "rarity": 470,
     "count": 1,
     "horizontal_size": 50,
 	"density": 650
@@ -217,7 +217,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 700,
+    "rarity": 380,
     "count": 1,
     "horizontal_size": 40,
 	"density":650
@@ -228,7 +228,7 @@
       "block": "thermalfoundation:ore",
       "meta": 4
     },
-    "rarity": 120,
+    "rarity": 70,
     "count": 1,
     "horizontal_size": 35,
     "vertical_size": 8,
@@ -241,10 +241,10 @@
       "meta": 5
     },
     "stone": "minecraft:stone",
-    "rarity": 150,
+    "rarity": 80,
     "count": 1,
-    "horizontal_size": 10,
-    "vertical_size": 35,
+    "horizontal_size": 11,
+    "vertical_size": 40,
     "density": 700
   },
   "oreCertusQuartz": {
@@ -260,7 +260,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 60,
+    "rarity": 50,
     "density": 500,
     "vertical_size": 16,
     "horizontal_size": 5
@@ -269,7 +269,7 @@
     "type": "cluster",
     "ore": "bigreactors:oreyellorite",
     "stone": "minecraft:stone",
-    "rarity": 100,
+    "rarity": 75,
     "count": 1,
     "horizontal_size": 5,
     "vertical_size": 35,
