@@ -228,7 +228,7 @@
 	"density": 500
   },
   "oreLead": {
-    "type": "cluster",
+    "type": "cone",
 	"ore": [
       {
 		"block": "thermalfoundation:ore",
@@ -244,6 +244,7 @@
     "stone": "minecraft:stone",
     "rarity": 380,
     "count": 1,
+	"shape": 0.2,
     "horizontal_size": 22,
 	"vertical_size":9,
 	"density":500
