@@ -72,7 +72,7 @@
     "rarity": 40,
     "min_y": 0,
     "max_y": 40,
-    "density": 500,
+    "density": 140,
     "vertical_size": 26,
     "horizontal_size": 30,
 	"shape": 0.15
@@ -196,11 +196,11 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 200,
+    "rarity": 180,
     "count": 1,
 	"clusters":10,
     "horizontal_size": 32,
-    "density": 500
+    "density": 160
   },
   "oreTin": {
     "type": "cluster",
@@ -209,10 +209,10 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 270,
+    "rarity": 230,
     "count": 1,
     "horizontal_size": 40,
-    "density": 500
+    "density": 200
   },
   "oreSilver": {
     "type": "cluster",
