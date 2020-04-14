@@ -12,9 +12,7 @@
   },
     "iron_ore_rich": {
     "type": "cluster",
-    "ore": {
-      "block": "ore:oreIron",
-    },
+    "ore": "ore:oreIron",
     "stone": "minecraft:stone",
     "rarity": 300,
     "count": 1,
