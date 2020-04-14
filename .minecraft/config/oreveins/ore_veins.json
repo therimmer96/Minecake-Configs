@@ -1,5 +1,5 @@
 {
-  "iron_ore_example": {
+  "iron_ore": {
     "type": "cluster",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
@@ -7,14 +7,14 @@
     "rarity": 52,
     "count": 5,
 	"clusters": 7,
-	"vertical_size": 5,
+	"vertical_size": 3,
     "horizontal_size": 14
   },
   "iron_ore_rich": {
     "type": "cluster",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
-    "density": 500,
+    "density": 250,
     "rarity": 300,
     "count": 1,
 	"clusters": 4,
@@ -183,11 +183,11 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 170,
+    "rarity": 200,
     "count": 1,
 	"clusters":10,
     "horizontal_size": 32,
-    "density": 120
+    "density": 500
   },
   "oreTin": {
     "type": "cluster",
@@ -196,7 +196,7 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 200,
+    "rarity": 270,
     "count": 1,
     "horizontal_size": 40,
     "density": 500
@@ -231,8 +231,8 @@
     "stone": "minecraft:stone",
     "rarity": 380,
     "count": 1,
-    "horizontal_size": 28,
-	"vertical_size":10,
+    "horizontal_size": 22,
+	"vertical_size":9,
 	"density":500
   },
   "oreAluminium": {
@@ -258,7 +258,7 @@
     "count": 1,
     "horizontal_size": 11,
     "vertical_size": 40,
-    "density": 40
+    "density": 50
   },
   "oreCertusQuartz": {
     "type": "cluster",
