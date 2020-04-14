@@ -10,15 +10,15 @@
 	"vertical_size": 5,
     "horizontal_size": 14
   },
-    "iron_ore_rich": {
+  "iron_ore_rich": {
     "type": "cluster",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
+    "density": 500,
     "rarity": 300,
     "count": 1,
-	"clusters":4,
-    "horizontal_size": 35,
-    "density": 500
+	"clusters": 4,
+    "horizontal_size": 35
   },
   "gold_ore_example": {
     "type": "cone",
