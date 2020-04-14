@@ -30,7 +30,7 @@
 	  {
 		"block": "minecraft:gold_block",
 		"weight": 3
-	  }
+	  },
       {
         "block": "appliedenergistics2:quartz_ore",
         "weight": 7
