@@ -245,6 +245,7 @@
     "rarity": 380,
     "count": 1,
 	"shape": 0.2,
+	"inverted": true,
     "horizontal_size": 22,
 	"vertical_size":9,
 	"density":500
