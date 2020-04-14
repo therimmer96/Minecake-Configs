@@ -244,10 +244,9 @@
     "stone": "minecraft:stone",
     "rarity": 380,
     "count": 1,
-	"shape": 0.2,
-	"inverted": true,
+	"shape": 0.1,
     "horizontal_size": 22,
-	"vertical_size":9,
+	"vertical_size":4,
 	"density":250
   },
   "oreAluminium": {
