@@ -227,7 +227,7 @@
     "stone": "minecraft:stone",
     "rarity": 210,
     "count": 1,
-    "horizontal_size": 42,
+    "horizontal_size": 36,
     "density": 200
   },
   "oreSilver": {
