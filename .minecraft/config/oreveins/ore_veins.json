@@ -24,7 +24,7 @@
     "type": "cone",
 	"ore": [
       {
-        "ore": "minecraft:gold_ore",
+        "block": "minecraft:gold_ore",
         "weight": 49
       },
 	  {
@@ -271,6 +271,7 @@
       "block": "thermalfoundation:ore",
       "meta": 4
     },
+	"stone": "minecraft:stone",
     "rarity": 70,
     "count": 1,
     "horizontal_size": 35,
