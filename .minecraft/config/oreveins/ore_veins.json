@@ -320,13 +320,13 @@
       "meta": 6
     },
     "stone": "minecraft:stone",
-    "rarity": 700,
+    "rarity": 800,
     "count": 3,
 	"min_y": 0,
 	"max_y": 50,
 	"density": 60,
 	"vertical_size": 7,
-	"horizontal_size": 22
+	"horizontal_size": 17
   },
   "caveIridium": {
     "type": "cluster",
@@ -351,19 +351,19 @@
    ]
   },
     "richIridium": {
-    "type": "cluster",
+    "type": "cone",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 7
     },
     "stone": "minecraft:stone",
-    "rarity": 700,
+    "rarity": 800,
     "count": 3,
 	"min_y": 0,
-	"max_y": 50,
+	"max_y": 45,
 	"density": 60,
-	"vertical_size": 5,
-	"horizontal_size": 19
+	"vertical_size": 18,
+	"horizontal_size": 5
   },
   "oreCertusQuartz": {
     "type": "cluster",
