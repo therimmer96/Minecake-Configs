@@ -248,7 +248,7 @@
 	"inverted": true,
     "horizontal_size": 22,
 	"vertical_size":9,
-	"density":500
+	"density":250
   },
   "oreAluminium": {
     "type": "cluster",
