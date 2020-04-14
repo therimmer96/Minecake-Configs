@@ -25,15 +25,15 @@
 	"ore": [
       {
         "block": "minecraft:gold_ore",
-        "weight": 49
+        "weight": 63
       },
 	  {
 		"block": "minecraft:gold_block",
-		"weight": 3
+		"weight": 2
 	  },
       {
         "block": "appliedenergistics2:quartz_ore",
-        "weight": 7
+        "weight": 4
       },
       {
         "block": "appliedenergistics2:charged_quartz_ore",
