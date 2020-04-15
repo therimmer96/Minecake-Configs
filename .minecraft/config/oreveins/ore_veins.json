@@ -3,12 +3,12 @@
     "type": "cluster",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
-    "density": 650,
+    "density": 35,
     "rarity": 52,
     "count": 5,
 	"clusters": 7,
 	"vertical_size": 3,
-    "horizontal_size": 14
+    "horizontal_size": 7
   },
   "iron_ore_rich": {
     "type": "cluster",
@@ -101,9 +101,9 @@
     "count": 3,
     "min_y": 0,
     "max_y": 35,
-    "density": 400,
+    "density": 30,
     "vertical_size": 3,
-    "horizontal_size": 7
+    "horizontal_size": 4
   },
   "cave_diamond": {
     "type": "cluster",
@@ -113,7 +113,7 @@
     "count": 3,
 	"min_y": 0,
 	"max_y": 35,
-	"density": 50,
+	"density": 20,
 	"vertical_size": 6,
 	"horizontal_size": 12,
 	"conditions": [
@@ -162,8 +162,8 @@
     "min_y": 0,
     "max_y": 75,
     "density": 110,
-    "vertical_size": 9,
-    "horizontal_size": 15,
+    "vertical_size": 4,
+    "horizontal_size": 7,
     "biomes": [
       "mountain",
       "extreme_hills",
@@ -348,7 +348,7 @@
     "count": 3,
 	"min_y": 0,
 	"max_y": 50,
-	"density": 80,
+	"density": 20,
 	"vertical_size": 6,
 	"horizontal_size": 20,
 	"conditions": [
@@ -370,9 +370,9 @@
     "count": 3,
 	"min_y": 0,
 	"max_y": 45,
-	"density": 60,
-	"vertical_size": 20,
-	"horizontal_size": 10
+	"density": 45,
+	"vertical_size": 12,
+	"horizontal_size": 4
   },
   "oreCertusQuartz": {
     "type": "cluster",
@@ -388,9 +388,9 @@
     ],
     "stone": "minecraft:stone",
     "rarity": 50,
-    "density": 500,
-    "vertical_size": 16,
-    "horizontal_size": 5
+    "density": 40,
+    "vertical_size": 11,
+    "horizontal_size": 3
   },
   "oreYellorite": {
     "type": "cluster",
@@ -400,6 +400,6 @@
     "count": 1,
     "horizontal_size": 5,
     "vertical_size": 35,
-    "density": 700
+    "density": 35
   }
 }
