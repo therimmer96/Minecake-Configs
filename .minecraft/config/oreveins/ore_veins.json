@@ -64,7 +64,7 @@
     "stone": "minecraft:stone",
     "rarity": 70,
     "min_y": 32,
-    "max_y": 128,
+    "max_y": 70,
     "density": 650,
     "vertical_size": 15,
     "horizontal_size": 40
