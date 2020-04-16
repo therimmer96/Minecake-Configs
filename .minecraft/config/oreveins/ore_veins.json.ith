@@ -222,7 +222,7 @@
     "max_y": 60,
     "density": 60,
     "vertical_size": 3,
-    "horizontal_size": 8,
+    "horizontal_size": 3,
     "biomes": [
       "mountain",
       "extreme_hills",
@@ -476,8 +476,8 @@
 	"min_y": 0,
 	"max_y": 30,
 	"density": 20,
-	"vertical_size": 6,
-	"horizontal_size": 10,
+	"vertical_size": 3,
+	"horizontal_size": 5,
 	"conditions": [
 	   {
 		 "type": "touching",
