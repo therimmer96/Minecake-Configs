@@ -81,7 +81,7 @@
     "density": 140,
     "vertical_size": 20,
     "horizontal_size": 14,
-	"shape": 0.0
+	"shape": 1.0
   },
     "lapis_deposit": {
     "type": "cone",
@@ -285,7 +285,7 @@
       "meta": 2
     },
     "stone": "minecraft:stone",
-    "rarity": 1000,
+    "rarity": 750,
     "count": 1,
     "horizontal_size": 25,
 	"density": 90
@@ -305,7 +305,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 500,
+    "rarity": 420,
     "count": 1,
 	"shape": 0.1,
     "horizontal_size": 16,
