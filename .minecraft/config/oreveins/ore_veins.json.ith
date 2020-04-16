@@ -523,7 +523,7 @@
 	   }
    ]
   },
-    "rich_iridium": {
+    "random_iridium": {
     "type": "cone",
     "ore": {
       "block": "thermalfoundation:ore",
@@ -535,8 +535,8 @@
 	"min_y": 0,
 	"max_y": 35,
 	"density": 75,
-	"vertical_size": 5,
-	"horizontal_size": 3
+	"vertical_size": 6,
+	"horizontal_size": 2
   },
   "oreCertusQuartz": {
     "type": "cluster",
