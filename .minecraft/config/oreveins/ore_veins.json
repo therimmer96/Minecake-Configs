@@ -3,13 +3,29 @@
     "type": "cone",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
-    "density": 80,
+    "density": 40,
     "rarity": 30,
     "count": 5,
 	"min_y": 35,
 	"inverted": true,
 	"vertical_size": 2,
     "horizontal_size": 7
+	"shape":0.7
+  },
+    "iron_bog": {
+    "type": "cluster",
+    "ore": "ore:oreIron",
+    "stone": "minecraft:dirt",
+    "density": 60,
+    "rarity": 50,
+    "count": 3,
+	"min_y": 60,
+	"max_y":61,
+	"vertical_size": 1,
+    "horizontal_size": 2,
+	"biomes": [
+      "swamp"
+    ]
   },
   "iron_mine": {
     "type": "cluster",
@@ -77,9 +93,9 @@
     "stone": "minecraft:stone",
     "rarity": 75,
     "min_y": 0,
-    "max_y": 40,
-    "density": 140,
-    "vertical_size": 20,
+    "max_y": 42,
+    "density": 90,
+    "vertical_size": 12,
     "horizontal_size": 14,
 	"shape": 1.0
   },
@@ -285,10 +301,10 @@
       "meta": 2
     },
     "stone": "minecraft:stone",
-    "rarity": 750,
+    "rarity": 650,
     "count": 1,
     "horizontal_size": 25,
-	"density": 90
+	"density": 40
   },
   "lead_mine": {
     "type": "cone",
@@ -305,12 +321,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 420,
+    "rarity": 375,
     "count": 1,
-	"shape": 0.1,
-    "horizontal_size": 16,
-	"vertical_size":3,
-	"density": 90
+	"shape": 0.6,
+    "horizontal_size": 25,
+	"vertical_size":4,
+	"density": 35
   },
   "aluminium_mine": {
     "type": "cluster",
@@ -332,10 +348,10 @@
       "meta": 5
     },
     "stone": "minecraft:stone",
-    "rarity": 100,
+    "rarity": 180,
     "count": 1,
-    "horizontal_size": 13,
-    "vertical_size": 30,
+    "horizontal_size": 6,
+    "vertical_size": 20,
     "density": 50
   },
   "cave_platinum": {
