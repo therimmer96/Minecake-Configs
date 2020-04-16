@@ -166,11 +166,11 @@
     "type": "cone",
     "ore": "minecraft:redstone_ore",
     "stone": "minecraft:stone",
-    "rarity": 80,
+    "rarity": 60,
     "min_y": 0,
     "max_y": 42,
     "density": 90,
-    "vertical_size": 8,
+    "vertical_size": 6,
     "horizontal_size": 10,
 	"shape": 1.0
   },
@@ -183,8 +183,8 @@
     "max_y": 40,
     "density": 140,
     "vertical_size": 4,
-    "horizontal_size": 11,
-	"shape": 0.15
+    "horizontal_size": 8,
+	"shape": 0.8
   },
   "standard_diamond": {
     "type": "cluster",
@@ -320,7 +320,7 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 26,
+    "rarity": 34,
 	"min_y": 35,
     "count": 5,
     "horizontal_size": 5,
@@ -334,7 +334,7 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 28,
     "min_y": 35,
     "max_y": 80,
     "density": 10,
@@ -348,13 +348,13 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 760,
+    "rarity": 800,
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
 	"clusters":10,
-    "horizontal_size": 32,
-    "density": 100
+    "horizontal_size": 22,
+    "density": 40
   },
     "tin_small": {
     "type": "cluster",
@@ -363,7 +363,7 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 120,
+    "rarity": 140,
 	"min_y": 35,
     "count": 5,
     "horizontal_size": 5,
@@ -377,11 +377,11 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 810,
+    "rarity": 840,
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
-    "horizontal_size": 32,
+    "horizontal_size": 26,
     "density": 90
   },
   "silver_mine": {
@@ -428,7 +428,7 @@
 	"stone": "minecraft:stone",
     "rarity": 200,
     "count": 1,
-    "horizontal_size": 12,
+    "horizontal_size": 15,
     "vertical_size": 5,
     "density": 80
   },
