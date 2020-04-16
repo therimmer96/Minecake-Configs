@@ -42,11 +42,11 @@
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
     "density": 70,
-    "rarity": 600,
+    "rarity": 800,
 	"max_y": 45,
     "count": 1,
 	"clusters": 6,
-    "horizontal_size": 32,
+    "horizontal_size": 23,
     "biomes": [
       "mountain",
 	  "forest"
@@ -79,13 +79,7 @@
     "density": 80,
     "vertical_size": 16,
     "horizontal_size": 6,
-    "inverted": true,
-	"biomes": [
-      "mountain",
-	  "mesa",
-	  "sandy",
-	  "wasteland"
-    ]
+    "inverted": true
   },
   "coal_small_horizontal": {
     "type": "cluster",
@@ -181,7 +175,7 @@
     "rarity": 30,
     "min_y": 0,
     "max_y": 40,
-    "density": 140,
+    "density": 50,
     "vertical_size": 4,
     "horizontal_size": 8,
 	"shape": 0.8
@@ -323,7 +317,7 @@
     "rarity": 34,
 	"min_y": 35,
     "count": 5,
-    "horizontal_size": 5,
+    "horizontal_size": 4,
 	"vertical_size": 2,
     "density": 110
   },
@@ -363,11 +357,11 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 160,
+    "rarity": 170,
 	"min_y": 35,
     "count": 5,
     "horizontal_size": 3,
-	"vertical_size": 6,
+	"vertical_size": 8,
     "density": 130
   },
   "tin_Mine": {
@@ -377,11 +371,11 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 850,
+    "rarity": 900,
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
-    "horizontal_size": 26,
+    "horizontal_size": 17,
     "density": 90
   },
   "silver_mine": {
