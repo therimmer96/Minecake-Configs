@@ -409,7 +409,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 450,
+    "rarity": 300,
     "count": 1,
 	"shape": 0.6,
     "horizontal_size": 11,
