@@ -348,7 +348,7 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 650,
+    "rarity": 760,
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
@@ -377,7 +377,7 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 760,
+    "rarity": 810,
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
@@ -417,7 +417,7 @@
 	"shape": 0.6,
     "horizontal_size": 25,
 	"vertical_size":4,
-	"density": 35
+	"density": 45
   },
   "aluminium_mine": {
     "type": "cluster",
@@ -426,10 +426,10 @@
       "meta": 4
     },
 	"stone": "minecraft:stone",
-    "rarity": 160,
+    "rarity": 200,
     "count": 1,
-    "horizontal_size": 17,
-    "vertical_size": 8,
+    "horizontal_size": 12,
+    "vertical_size": 5,
     "density": 80
   },
   "nickel_vein": {
