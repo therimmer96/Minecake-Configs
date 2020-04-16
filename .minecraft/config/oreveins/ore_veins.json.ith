@@ -190,7 +190,7 @@
     "max_y": 35,
     "density": 60,
     "vertical_size": 2,
-    "horizontal_size": 8
+    "horizontal_size": 6
   },
   "cave_diamond": {
     "type": "cluster",
