@@ -42,7 +42,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 300,
+    "rarity": 350,
     "min_y": 8,
     "max_y": 50,
     "density": 80,
@@ -78,20 +78,20 @@
     "min_y": 0,
     "max_y": 40,
     "density": 140,
-    "vertical_size": 26,
-    "horizontal_size": 5,
+    "vertical_size": 20,
+    "horizontal_size": 14,
 	"shape": 0.4
   },
     "lapis_deposit": {
     "type": "cone",
     "ore": "minecraft:lapis_ore",
     "stone": "minecraft:stone",
-    "rarity": 60,
+    "rarity": 30,
     "min_y": 0,
     "max_y": 40,
     "density": 140,
     "vertical_size": 4,
-    "horizontal_size": 9,
+    "horizontal_size": 11,
 	"shape": 0.15
   },
   "standard_diamond": {
@@ -226,11 +226,12 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 26,
+	"min_y": 35,
     "count": 5,
-    "horizontal_size": 4,
+    "horizontal_size": 5,
 	"vertical_size": 2,
-    "density": 90
+    "density": 110
   },
   "copper_mine": {
     "type": "cluster",
@@ -247,17 +248,18 @@
     "horizontal_size": 25,
     "density": 100
   },
-    "tin_Small": {
+    "tin_small": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 70,
+    "rarity": 160,
+	"min_y": 35,
     "count": 5,
-    "horizontal_size": 3,
-	"vertical_size": 6,
+    "horizontal_size": 4,
+	"vertical_size": 10,
     "density": 150
   },
   "tin_Mine": {
@@ -302,7 +304,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 750,
+    "rarity": 500,
     "count": 1,
 	"shape": 0.1,
     "horizontal_size": 16,
@@ -316,9 +318,9 @@
       "meta": 4
     },
 	"stone": "minecraft:stone",
-    "rarity": 90,
+    "rarity": 200,
     "count": 1,
-    "horizontal_size": 35,
+    "horizontal_size": 17,
     "vertical_size": 8,
     "density": 80
   },
@@ -406,8 +408,8 @@
 	"min_y": 0,
 	"max_y": 35,
 	"density": 75,
-	"vertical_size": 19,
-	"horizontal_size": 4
+	"vertical_size": 15,
+	"horizontal_size": 5
   },
   "oreCertusQuartz": {
     "type": "cluster",
@@ -423,8 +425,8 @@
     ],
     "stone": "minecraft:stone",
     "rarity": 50,
-    "density": 40,
-    "vertical_size": 11,
+    "density": 90,
+    "vertical_size": 2,
     "horizontal_size": 3
   },
   "oreYellorite": {
