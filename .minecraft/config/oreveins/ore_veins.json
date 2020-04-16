@@ -4,8 +4,9 @@
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
     "density": 80,
-    "rarity": 35,
+    "rarity": 30,
     "count": 5,
+	"min_y": 35,
 	"inverted": true,
 	"vertical_size": 2,
     "horizontal_size": 7
@@ -15,7 +16,7 @@
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
     "density": 70,
-    "rarity": 700,
+    "rarity": 620,
 	"max_y": 45,
     "count": 1,
 	"clusters": 6,
@@ -42,7 +43,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 310,
+    "rarity": 280,
     "min_y": 8,
     "max_y": 50,
     "density": 80,
@@ -80,7 +81,7 @@
     "density": 140,
     "vertical_size": 20,
     "horizontal_size": 14,
-	"shape": 0.4
+	"shape": 0.0
   },
     "lapis_deposit": {
     "type": "cone",
@@ -240,12 +241,12 @@
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 700,
+    "rarity": 650,
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
 	"clusters":10,
-    "horizontal_size": 25,
+    "horizontal_size": 32,
     "density": 100
   },
     "tin_small": {
@@ -258,7 +259,7 @@
     "rarity": 160,
 	"min_y": 35,
     "count": 5,
-    "horizontal_size": 4,
+    "horizontal_size": 5,
 	"vertical_size": 10,
     "density": 150
   },
@@ -331,7 +332,7 @@
       "meta": 5
     },
     "stone": "minecraft:stone",
-    "rarity": 80,
+    "rarity": 100,
     "count": 1,
     "horizontal_size": 13,
     "vertical_size": 30,
