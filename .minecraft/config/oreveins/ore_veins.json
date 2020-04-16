@@ -1,26 +1,27 @@
 {
-  "iron_ore": {
-    "type": "cluster",
+  "iron_vein": {
+    "type": "cone",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
-    "density": 35,
-    "rarity": 52,
+    "density": 80,
+    "rarity": 50,
     "count": 5,
-	"clusters": 7,
-	"vertical_size": 3,
-    "horizontal_size": 7
+	"inverted": true,
+	"vertical_size": 2,
+    "horizontal_size": 8
   },
-  "iron_ore_rich": {
+  "iron_mine": {
     "type": "cluster",
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
-    "density": 250,
-    "rarity": 300,
+    "density": 70,
+    "rarity": 700,
+	"max_y": 45,
     "count": 1,
-	"clusters": 4,
-    "horizontal_size": 35
+	"clusters": 6,
+    "horizontal_size": 32
   },
-  "gold_ore": {
+  "gold_vein": {
     "type": "cone",
 	"ore": [
       {
@@ -41,15 +42,15 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 80,
+    "rarity": 300,
     "min_y": 8,
     "max_y": 50,
-    "density": 400,
+    "density": 80,
     "vertical_size": 16,
     "horizontal_size": 13,
     "inverted": true
   },
-  "coal_ore_example": {
+  "coal_mine": {
     "type": "cluster",
     "ore": [
       {
@@ -62,48 +63,48 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 70,
+    "rarity": 130,
     "min_y": 32,
     "max_y": 70,
-    "density": 650,
+    "density": 90,
     "vertical_size": 15,
     "horizontal_size": 40
   },
-  "redstone_ore": {
+  "redstone_deposit": {
     "type": "cone",
     "ore": "minecraft:redstone_ore",
     "stone": "minecraft:stone",
-    "rarity": 40,
+    "rarity": 75,
     "min_y": 0,
     "max_y": 40,
     "density": 140,
     "vertical_size": 26,
-    "horizontal_size": 15,
+    "horizontal_size": 5,
 	"shape": 0.4
   },
-    "lapis_ore": {
+    "lapis_deposit": {
     "type": "cone",
     "ore": "minecraft:lapis_ore",
     "stone": "minecraft:stone",
-    "rarity": 45,
+    "rarity": 60,
     "min_y": 0,
     "max_y": 40,
     "density": 140,
-    "vertical_size": 10,
-    "horizontal_size": 15,
+    "vertical_size": 4,
+    "horizontal_size": 9,
 	"shape": 0.15
   },
   "standard_diamond": {
     "type": "cluster",
     "ore": "minecraft:diamond_ore",
     "stone": "minecraft:stone",
-    "rarity": 133,
+    "rarity": 150,
     "count": 3,
     "min_y": 0,
     "max_y": 35,
-    "density": 30,
-    "vertical_size": 3,
-    "horizontal_size": 4
+    "density": 50,
+    "vertical_size": 2,
+    "horizontal_size": 5
   },
   "cave_diamond": {
     "type": "cluster",
@@ -112,8 +113,8 @@
     "rarity": 75,
     "count": 3,
 	"min_y": 0,
-	"max_y": 35,
-	"density": 20,
+	"max_y": 30,
+	"density": 25,
 	"vertical_size": 6,
 	"horizontal_size": 12,
 	"conditions": [
@@ -129,13 +130,13 @@
     "ore": "minecraft:emerald_ore",
     "stone": "minecraft:stone",
 	"clusters": 7,
-    "rarity": 120,
+    "rarity": 130,
     "count": 3,
     "min_y": 0,
     "max_y": 60,
     "density": 60,
-    "vertical_size": 7,
-    "horizontal_size": 13,
+    "vertical_size": 3,
+    "horizontal_size": 8,
     "biomes": [
       "mountain",
       "extreme_hills",
@@ -149,10 +150,14 @@
     "ore": [
       {
         "block": "minecraft:emerald_ore",
-        "weight": 25
+        "weight": 37
       },
       {
         "block": "mysticalworld:amethyst_ore",
+        "weight": 2
+      },
+	  {
+        "block": "minecraft:gold_ore",
         "weight": 1
       }
     ],
@@ -161,9 +166,9 @@
     "count": 5,
     "min_y": 0,
     "max_y": 75,
-    "density": 110,
-    "vertical_size": 4,
-    "horizontal_size": 7,
+    "density": 30,
+    "vertical_size": 5,
+    "horizontal_size": 20,
     "biomes": [
       "mountain",
       "extreme_hills",
@@ -193,10 +198,10 @@
     ],
     "stone": "minecraft:stone",
     "rarity": 50,
-    "count": 3,
+    "count": 5,
     "min_y": 0,
     "max_y": 75,
-    "density": 110,
+    "density": 30,
     "vertical_size": 9,
     "horizontal_size": 20,
     "biomes": [
@@ -214,32 +219,62 @@
 	   }
     ]
   },
-  "oreCopper": {
+    "copper_small": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 0
     },
     "stone": "minecraft:stone",
-    "rarity": 180,
+    "rarity": 50,
+    "count": 5,
+    "horizontal_size": 4,
+	"vertical_size": 2,
+    "density": 90
+  },
+  "copper_mine": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 0
+    },
+    "stone": "minecraft:stone",
+    "rarity": 700,
+	"min_y": 0,
+	"max_y": 40,
     "count": 1,
 	"clusters":10,
-    "horizontal_size": 32,
-    "density": 160
+    "horizontal_size": 25,
+    "density": 100
   },
-  "oreTin": {
+    "tin_Small": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 215,
-    "count": 1,
-    "horizontal_size": 36,
-    "density": 200
+    "rarity": 70,
+    "count": 5,
+    "horizontal_size": 3,
+	"vertical_size": 6,
+    "density": 150
   },
-  "oreSilver": {
+  "tin_Mine": {
+    "type": "cluster",
+    "ore": {
+      "block": "thermalfoundation:ore",
+      "meta": 1
+    },
+    "stone": "minecraft:stone",
+    "rarity": 900,
+	"min_y": 0,
+	"max_y": 40,
+    "count": 1,
+    "horizontal_size": 32,
+    "density": 90
+  },
+  "silver_mine": {
     "type": "cluster",
 	"clusters": 5,
     "ore": {
@@ -247,12 +282,12 @@
       "meta": 2
     },
     "stone": "minecraft:stone",
-    "rarity": 470,
+    "rarity": 1000,
     "count": 1,
     "horizontal_size": 25,
-	"density": 500
+	"density": 90
   },
-  "oreLead": {
+  "lead_mine": {
     "type": "cone",
 	"ore": [
       {
@@ -267,27 +302,27 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 380,
+    "rarity": 750,
     "count": 1,
 	"shape": 0.1,
-    "horizontal_size": 22,
-	"vertical_size":4,
-	"density":250
+    "horizontal_size": 16,
+	"vertical_size":3,
+	"density": 90
   },
-  "oreAluminium": {
+  "aluminium_mine": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 4
     },
 	"stone": "minecraft:stone",
-    "rarity": 300,
+    "rarity": 90,
     "count": 1,
     "horizontal_size": 35,
     "vertical_size": 8,
-    "density": 200
+    "density": 80
   },
-  "oreNickel": {
+  "nickel_vein": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
@@ -300,7 +335,7 @@
     "vertical_size": 40,
     "density": 50
   },
-  "cavePlatinum": {
+  "cave_platinum": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
@@ -310,8 +345,8 @@
     "rarity": 88,
     "count": 3,
 	"min_y": 0,
-	"max_y": 50,
-	"density": 80,
+	"max_y": 30,
+	"density": 50,
 	"vertical_size": 6,
 	"horizontal_size": 15,
 	"conditions": [
@@ -322,33 +357,33 @@
 	   }
    ]
   },
-  "richPlatinum": {
+  "rich_platinum": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 6
     },
     "stone": "minecraft:stone",
-    "rarity": 850,
-    "count": 3,
+    "rarity": 1000,
+    "count": 2,
 	"min_y": 0,
-	"max_y": 50,
-	"density": 60,
-	"vertical_size": 5,
-	"horizontal_size": 12
+	"max_y": 35,
+	"density": 70,
+	"vertical_size": 2,
+	"horizontal_size": 7
   },
-  "caveIridium": {
+  "cave_iridium": {
     "type": "cluster",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 7
     },
     "stone": "minecraft:stone",
-    "rarity": 85,
+    "rarity": 200,
     "count": 3,
 	"min_y": 0,
-	"max_y": 50,
-	"density": 20,
+	"max_y": 30,
+	"density": 25,
 	"vertical_size": 6,
 	"horizontal_size": 20,
 	"conditions": [
@@ -359,19 +394,19 @@
 	   }
    ]
   },
-    "richIridium": {
+    "rich_iridium": {
     "type": "cone",
     "ore": {
       "block": "thermalfoundation:ore",
       "meta": 7
     },
     "stone": "minecraft:stone",
-    "rarity": 800,
-    "count": 3,
+    "rarity": 1100,
+    "count": 2,
 	"min_y": 0,
-	"max_y": 45,
-	"density": 45,
-	"vertical_size": 12,
+	"max_y": 35,
+	"density": 75,
+	"vertical_size": 19,
 	"horizontal_size": 4
   },
   "oreCertusQuartz": {
