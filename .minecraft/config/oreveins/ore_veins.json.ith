@@ -184,7 +184,7 @@
     "type": "cluster",
     "ore": "minecraft:diamond_ore",
     "stone": "minecraft:stone",
-    "rarity": 400,
+    "rarity": 500,
     "count": 3,
     "min_y": 0,
     "max_y": 35,
