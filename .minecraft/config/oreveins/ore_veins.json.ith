@@ -166,7 +166,7 @@
     "type": "cone",
     "ore": "minecraft:redstone_ore",
     "stone": "minecraft:stone",
-    "rarity": 60,
+    "rarity": 45,
     "min_y": 0,
     "max_y": 42,
     "density": 90,
@@ -363,12 +363,12 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 140,
+    "rarity": 160,
 	"min_y": 35,
     "count": 5,
-    "horizontal_size": 5,
-	"vertical_size": 7,
-    "density": 150
+    "horizontal_size": 3,
+	"vertical_size": 6,
+    "density": 130
   },
   "tin_Mine": {
     "type": "cluster",
@@ -377,7 +377,7 @@
       "meta": 1
     },
     "stone": "minecraft:stone",
-    "rarity": 840,
+    "rarity": 850,
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
@@ -397,7 +397,7 @@
     "horizontal_size": 25,
 	"density": 40
   },
-  "lead_mine": {
+  "lead_mine_small": {
     "type": "cone",
 	"ore": [
       {
@@ -412,12 +412,34 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 375,
+    "rarity": 750,
     "count": 1,
 	"shape": 0.6,
-    "horizontal_size": 25,
+    "horizontal_size": 19,
 	"vertical_size":4,
-	"density": 45
+	"density": 35
+  },
+    "lead_mine_rich": {
+    "type": "cone",
+	"ore": [
+      {
+		"block": "thermalfoundation:ore",
+		"meta": 3,
+		"weight": 49
+      },
+      {
+        "block": "thermalfoundation:ore",
+		"meta": 2,
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 1000,
+    "count": 1,
+	"shape": 0.6,
+    "horizontal_size": 21,
+	"vertical_size":4,
+	"density": 60
   },
   "aluminium_mine": {
     "type": "cluster",
@@ -429,8 +451,8 @@
     "rarity": 200,
     "count": 1,
     "horizontal_size": 15,
-    "vertical_size": 5,
-    "density": 80
+    "vertical_size": 3,
+    "density": 40
   },
   "nickel_vein": {
     "type": "cluster",
@@ -516,8 +538,8 @@
 	"min_y": 0,
 	"max_y": 35,
 	"density": 75,
-	"vertical_size": 13,
-	"horizontal_size": 5
+	"vertical_size": 9,
+	"horizontal_size": 4
   },
   "oreCertusQuartz": {
     "type": "cluster",
