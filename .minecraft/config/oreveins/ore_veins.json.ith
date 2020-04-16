@@ -409,7 +409,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 600,
+    "rarity": 450,
     "count": 1,
 	"shape": 0.6,
     "horizontal_size": 11,
@@ -461,7 +461,7 @@
     "rarity": 180,
     "count": 1,
     "horizontal_size": 6,
-    "vertical_size": 20,
+    "vertical_size": 15,
     "density": 50
   },
   "cave_platinum": {
