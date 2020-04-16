@@ -73,7 +73,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 420,
+    "rarity": 330,
     "min_y": 8,
     "max_y": 50,
     "density": 80,
