@@ -188,9 +188,9 @@
     "count": 3,
     "min_y": 0,
     "max_y": 35,
-    "density": 50,
+    "density": 60,
     "vertical_size": 2,
-    "horizontal_size": 7
+    "horizontal_size": 8
   },
   "cave_diamond": {
     "type": "cluster",
@@ -347,7 +347,8 @@
 	"max_y": 40,
     "count": 1,
 	"clusters":10,
-    "horizontal_size": 22,
+    "horizontal_size": 14,
+	"vertical_size": 4,
     "density": 40
   },
     "tin_small": {
@@ -375,7 +376,7 @@
 	"min_y": 0,
 	"max_y": 40,
     "count": 1,
-    "horizontal_size": 17,
+    "horizontal_size": 16,
 	"vertical_size": 4,
     "density": 90
   },
