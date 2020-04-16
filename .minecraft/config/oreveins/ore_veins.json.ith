@@ -184,13 +184,13 @@
     "type": "cluster",
     "ore": "minecraft:diamond_ore",
     "stone": "minecraft:stone",
-    "rarity": 500,
+    "rarity": 550,
     "count": 3,
     "min_y": 0,
     "max_y": 35,
     "density": 60,
     "vertical_size": 2,
-    "horizontal_size": 6
+    "horizontal_size": 5
   },
   "cave_diamond": {
     "type": "cluster",
