@@ -4,11 +4,11 @@
     "ore": "ore:oreIron",
     "stone": "minecraft:stone",
     "density": 80,
-    "rarity": 50,
+    "rarity": 35,
     "count": 5,
 	"inverted": true,
 	"vertical_size": 2,
-    "horizontal_size": 8
+    "horizontal_size": 7
   },
   "iron_mine": {
     "type": "cluster",
@@ -42,7 +42,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 350,
+    "rarity": 310,
     "min_y": 8,
     "max_y": 50,
     "density": 80,
@@ -162,13 +162,13 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 30,
+    "rarity": 60,
     "count": 5,
     "min_y": 0,
     "max_y": 75,
     "density": 30,
     "vertical_size": 5,
-    "horizontal_size": 20,
+    "horizontal_size": 5,
     "biomes": [
       "mountain",
       "extreme_hills",
@@ -318,7 +318,7 @@
       "meta": 4
     },
 	"stone": "minecraft:stone",
-    "rarity": 200,
+    "rarity": 155,
     "count": 1,
     "horizontal_size": 17,
     "vertical_size": 8,
@@ -334,7 +334,7 @@
     "rarity": 80,
     "count": 1,
     "horizontal_size": 13,
-    "vertical_size": 40,
+    "vertical_size": 30,
     "density": 50
   },
   "cave_platinum": {
