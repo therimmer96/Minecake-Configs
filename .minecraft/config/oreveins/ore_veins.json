@@ -93,17 +93,18 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 330,
+    "rarity": 360,
     "min_y": 8,
     "max_y": 50,
-    "density": 80,
-    "vertical_size": 13,
-    "horizontal_size": 6,
+    "density": 35,
+    "vertical_size": 11,
+    "horizontal_size": 7,
     "inverted": true,
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockgold",
       "max_depth": 115,
-	  "rarity": 20
+	  "rarity": 15
+	  "ignore_liquids": true
     }
   },
   "coal_small_horizontal": {
@@ -120,7 +121,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcoal",
       "max_depth": 115,
-	  "rarity": 12
+	  "rarity": 50
     }
   },
   "coal_small_vertical": {
@@ -137,7 +138,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcoal",
       "max_depth": 115,
-	  "rarity": 12
+	  "rarity": 50
     }
   },
   "coal_small_horizontal_high": {
@@ -154,7 +155,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcoal",
       "max_depth": 115,
-	  "rarity": 12
+	  "rarity": 50
     }
   },
   "coal_small_vertical_high": {
@@ -171,7 +172,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcoal",
       "max_depth": 115,
-	  "rarity": 12
+	  "rarity": 50
     }
   },
   "coal_mine": {
@@ -196,7 +197,8 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcoal",
       "max_depth": 115,
-	  "rarity": 30
+	  "rarity": 70,
+	  "ignore_liquids": true
     }
   },
   "redstone_deposit": {
@@ -230,7 +232,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblocklapis",
       "max_depth": 115,
-	  "rarity": 30
+	  "rarity": 50
     }
   },
   "standard_diamond": {
@@ -241,13 +243,13 @@
     "count": 3,
     "min_y": 0,
     "max_y": 35,
-    "density": 60,
+    "density": 50,
     "vertical_size": 2,
-    "horizontal_size": 3,
+    "horizontal_size": 5,
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockdiamond",
       "max_depth": 115,
-	  "rarity": 12
+	  "rarity": 5
     }
   },
   "cave_diamond": {
@@ -386,7 +388,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcopper",
       "max_depth": 115,
-	  "rarity": 12
+	  "rarity": 25
     }
   },
   "copper_small_scatters": {
@@ -405,7 +407,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcopper",
       "max_depth": 115,
-	  "rarity": 12
+	  "rarity": 17
     }
   },
   "copper_mine": {
@@ -426,7 +428,8 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcopper",
       "max_depth": 115,
-	  "rarity": 30
+	  "rarity": 30,
+	  "ignore_liquids": true
     }
   },
     "tin_small": {
@@ -465,7 +468,8 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblocktin",
       "max_depth": 115,
-	  "rarity": 30
+	  "rarity": 30,
+	  "ignore_liquids": true
     }
   },
   "silver_mine": {
@@ -484,7 +488,8 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblocksilver",
       "max_depth": 115,
-	  "rarity": 30
+	  "rarity": 30,
+	  "ignore_liquids": true
     }
   },
   "lead_mine_small": {
@@ -505,9 +510,9 @@
     "rarity": 300,
     "count": 1,
 	"shape": 0.6,
-    "horizontal_size": 11,
+    "horizontal_size": 13,
 	"vertical_size":3,
-	"density": 35,
+	"density": 30,
 	"indicator": {
       "blocks": "simpleoresamples:sampleblocklead",
       "max_depth": 115,
@@ -538,7 +543,8 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblocklead",
       "max_depth": 115,
-	  "rarity": 30
+	  "rarity": 30,
+	  "ignore_liquids": true
     }
   },
   "aluminium_mine": {
