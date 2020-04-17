@@ -103,7 +103,7 @@
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockgold",
       "max_depth": 115,
-	  "rarity": 15
+	  "rarity": 15,
 	  "ignore_liquids": true
     }
   },
