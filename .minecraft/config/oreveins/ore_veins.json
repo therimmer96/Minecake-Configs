@@ -560,7 +560,7 @@
     "vertical_size": 3,
     "density": 40,
 	"indicator": {
-      "blocks": "simpleoresamples:sampleblockaluminum",
+      "blocks": "simpleoresamples:sampleblockaluminium",
       "max_depth": 115,
 	  "rarity": 17
     }
