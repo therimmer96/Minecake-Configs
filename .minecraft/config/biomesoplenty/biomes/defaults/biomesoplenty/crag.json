@@ -49,16 +49,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "emeralds": {
-      "minHeight": 4,
-      "with": {
-        "block": "minecraft:emerald_ore",
-        "properties": {}
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
-      "enable": true
-    },
     "overgrown_stone_patches": {
       "with": {
         "block": "biomesoplenty:grass",
