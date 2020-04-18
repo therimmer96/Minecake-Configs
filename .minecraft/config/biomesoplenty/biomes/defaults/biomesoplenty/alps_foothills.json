@@ -68,16 +68,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "emeralds": {
-      "minHeight": 4,
-      "with": {
-        "block": "minecraft:emerald_ore",
-        "properties": {}
-      },
-      "amountPerChunk": 0.1,
-      "maxHeight": 32,
-      "enable": true
-    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
