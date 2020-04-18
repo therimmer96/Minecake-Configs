@@ -499,12 +499,13 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 260,
-    "count": 1,
+    "rarity": 15,
+    "count": 3,
     "shape": 0.6,
-    "horizontal_size": 10,
+    "horizontal_size": 5,
     "vertical_size": 3,
-    "density": 30,
+    "density": 60,
+    "max_y": 70,
     "indicator": {
       "blocks": "simpleoresamples:sampleblocklead",
       "max_depth": 115,
