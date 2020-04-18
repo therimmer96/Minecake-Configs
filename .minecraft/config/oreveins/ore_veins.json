@@ -499,13 +499,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 15,
-    "count": 3,
+    "rarity": 260,
+    "count": 1,
     "shape": 0.6,
-    "horizontal_size": 5,
+    "horizontal_size": 10,
     "vertical_size": 3,
-    "density": 60,
-    "max_y": 70,
+    "density": 30,
     "indicator": {
       "blocks": "simpleoresamples:sampleblocklead",
       "max_depth": 115,
@@ -611,7 +610,7 @@
     "max_y": 35,
     "density": 70,
     "vertical_size": 2,
-    "horizontal_size": 2
+    "horizontal_size": 6
   },
   "cave_iridium": {
     "type": "cluster",
