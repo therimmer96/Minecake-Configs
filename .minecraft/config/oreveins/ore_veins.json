@@ -605,7 +605,7 @@
       "meta": 6
     },
     "stone": "minecraft:stone",
-    "rarity": 500,
+    "rarity": 1000,
     "count": 2,
     "min_y": 0,
     "max_y": 35,
@@ -642,7 +642,7 @@
       "meta": 7
     },
     "stone": "minecraft:stone",
-    "rarity": 1100,
+    "rarity": 1000,
     "count": 2,
     "min_y": 0,
     "max_y": 35,
