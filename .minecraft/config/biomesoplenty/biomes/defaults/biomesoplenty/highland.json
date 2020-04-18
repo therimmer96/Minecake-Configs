@@ -67,6 +67,16 @@
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
       "enable": true
+    },
+    "emerald": {
+      "minHeight": 4,
+      "with": {
+        "block": "minecraft:emerald_ore",
+        "properties": {}
+      },
+      "amountPerChunk": 0.1,
+      "maxHeight": 32,
+      "enable": true
     }
   },
   "weights": {

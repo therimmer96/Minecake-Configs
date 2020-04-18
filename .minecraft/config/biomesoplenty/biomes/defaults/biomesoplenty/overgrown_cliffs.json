@@ -57,6 +57,16 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "emeralds": {
+      "minHeight": 4,
+      "with": {
+        "block": "minecraft:emerald_ore",
+        "properties": {}
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
+      "enable": true
+    },
     "grass": {
       "amountPerChunk": 2.0,
       "enable": true,
