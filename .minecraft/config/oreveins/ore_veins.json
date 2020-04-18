@@ -240,7 +240,7 @@
     "min_y": 0,
     "max_y": 35,
     "density": 50,
-    "vertical_size": 2,
+    "vertical_size": 3,
     "horizontal_size": 7,
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockdiamond",
@@ -345,9 +345,7 @@
     "stone": "minecraft:stone",
     "rarity": 50,
     "count": 5,
-	"use_relative_y": true,
-    "min_y": -60,
-    "max_y": -1,
+    "max_y": 75,
     "density": 30,
     "vertical_size": 9,
     "horizontal_size": 9,
@@ -492,7 +490,7 @@
       {
 		"block": "thermalfoundation:ore",
 		"meta": 3,
-		"weight": 39
+		"weight": 29
       },
       {
         "block": "thermalfoundation:ore",
@@ -504,7 +502,7 @@
     "rarity": 260,
     "count": 1,
 	"shape": 0.6,
-    "horizontal_size": 13,
+    "horizontal_size": 10,
 	"vertical_size":3,
 	"density": 30,
 	"indicator": {
@@ -519,7 +517,7 @@
       {
 		"block": "thermalfoundation:ore",
 		"meta": 3,
-		"weight": 29
+		"weight": 19
       },
       {
         "block": "thermalfoundation:ore",
@@ -531,7 +529,7 @@
     "rarity": 1100,
     "count": 1,
 	"shape": 0.6,
-    "horizontal_size": 20,
+    "horizontal_size": 16,
 	"vertical_size":4,
 	"density": 60,
 	"indicator": {
