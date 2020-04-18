@@ -654,7 +654,7 @@
     "ore": [
       {
         "block": "appliedenergistics2:quartz_ore",
-        "weight": 5
+        "weight": 6
       },
       {
         "block": "appliedenergistics2:charged_quartz_ore",
@@ -663,13 +663,13 @@
     ],
     "stone": "minecraft:stone",
     "rarity": 200,
-    "density": 60,
-    "vertical_size": 2,
-    "horizontal_size": 6,
+    "density": 50,
+    "vertical_size": 3,
+    "horizontal_size": 9,
 	"indicator": {
       "blocks": "simpleoresamples:sampleblockcertusquartz",
       "max_depth": 115,
-	  "rarity": 4
+	  "rarity": 17
     }
   },
   "oreYellorite": {
