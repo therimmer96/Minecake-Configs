@@ -107,7 +107,11 @@ recipes.remove(<extrautils2:angelring:5>);
 
 recipes.remove(<thermalexpansion:augment:336>);
 
-recipes.remove(<tconstruct:slimesling>);
+recipes.remove(<tconstruct:slimesling:0>);
+recipes.remove(<tconstruct:slimesling:1>);
+recipes.remove(<tconstruct:slimesling:2>);
+recipes.remove(<tconstruct:slimesling:4>);
+
 
 recipes.remove(<tconstruct:slime_boots:0>);
 recipes.remove(<tconstruct:slime_boots:1>);
@@ -116,6 +120,9 @@ recipes.remove(<tconstruct:slime_boots:4>);
 
 recipes.remove(<extrautils2:quarry>);
 recipes.remove(<extrautils2:quarryproxy>);
+
+recipes.remove(<industrialforegoing:laser_drill>);
+recipes.remove(<industrialforegoing:laser_base>);
 
 	#Remove ChunkLoaders (use FTBU to manage chunkloading)
 recipes.remove(<opencomputers:upgrade:4>);
