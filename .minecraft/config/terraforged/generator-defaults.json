@@ -2,12 +2,12 @@
   "rivers": {
     "riverCount": 13,
     "wetlands": {
-      "chance": 0.5,
-      "sizeMax": 225,
-      "sizeMin": 175
+      "chance": 0.202,
+      "sizeMax": 461,
+      "sizeMin": 402
     },
     "branchRivers": {
-      "fade": 0.95,
+      "fade": 0.949,
       "maxBankHeight": 6,
       "minBankHeight": 1,
       "bedDepth": 4,
@@ -15,19 +15,19 @@
       "bedWidth": 5
     },
     "mainRivers": {
-      "fade": 0.95,
+      "fade": 0.949,
       "maxBankHeight": 8,
       "minBankHeight": 2,
-      "bedDepth": 5,
+      "bedDepth": 6,
       "bankWidth": 20,
-      "bedWidth": 8
+      "bedWidth": 9
     },
     "lakes": {
       "chance": 0.3,
       "depth": 10,
       "maxBankHeight": 10,
       "minBankHeight": 2,
-      "maxStartDistance": 0.03,
+      "maxStartDistance": 0.038,
       "sizeMax": 150,
       "minStartDistance": 0.0,
       "sizeMin": 75
@@ -47,15 +47,15 @@
   "world": {
     "continent": {
       "continentMode": "MULTI",
-      "continentShape": "EUCLIDEAN",
-      "continentScale": 3000
+      "continentShape": "MANHATTAN",
+      "continentScale": 5881
     },
     "controlPoints": {
-      "coast": 0.448,
-      "beach": 0.327,
-      "shallowOcean": 0.25,
-      "inland": 0.502,
-      "deepOcean": 0.1
+      "coast": 0.615,
+      "beach": 0.583,
+      "shallowOcean": 0.504,
+      "inland": 0.674,
+      "deepOcean": 0.412
     },
     "properties": {
       "spawnType": "CONTINENT_CENTER",
@@ -65,7 +65,7 @@
   },
   "structures": {
     "strongholds": {
-      "distance": 20,
+      "distance": 22,
       "separation": 20
     },
     "oceanMonuments": {
@@ -95,40 +95,40 @@
   },
   "climate": {
     "biomeShape": {
-      "biomeWarpStrength": 80,
-      "biomeSize": 250,
-      "macroNoiseSize": 8,
-      "biomeWarpScale": 150
+      "biomeWarpStrength": 36,
+      "biomeSize": 395,
+      "macroNoiseSize": 4,
+      "biomeWarpScale": 280
     },
     "temperature": {
-      "falloff": 3,
+      "falloff": 4,
       "min": 0.0,
-      "max": 0.98,
-      "bias": 0.05,
-      "scale": 7
+      "max": 1.0,
+      "bias": 0.082,
+      "scale": 3
     },
     "moisture": {
       "falloff": 1,
       "min": 0.0,
       "max": 1.0,
       "bias": 0.0,
-      "scale": 6
+      "scale": 4
     },
     "biomeEdgeShape": {
-      "octaves": 2,
-      "strength": 14,
-      "scale": 24,
-      "type": "SIMPLEX",
-      "lacunarity": 2.65,
-      "gain": 0.5
+      "octaves": 4,
+      "strength": 34,
+      "scale": 15,
+      "type": "PERLIN",
+      "lacunarity": 6.534,
+      "gain": 2.019
     }
   },
   "filters": {
     "erosion": {
-      "dropletVelocity": 0.7,
+      "dropletVelocity": 0.699,
       "dropletLifetime": 25,
       "erosionRate": 0.5,
-      "dropletVolume": 0.7,
+      "dropletVolume": 0.699,
       "depositeRate": 0.5,
       "iterations": 15000
     },
@@ -147,14 +147,14 @@
     },
     "general": {
       "globalVerticalScale": 0.98,
-      "globalHorizontalScale": 1.0,
-      "terrainRegionSize": 1200
+      "globalHorizontalScale": 0.995,
+      "terrainRegionSize": 1301
     },
     "mountains": {
       "baseScale": 1.0,
-      "verticalScale": 1.0,
-      "horizontalScale": 1.0,
-      "weight": 2.0
+      "verticalScale": 1.187,
+      "horizontalScale": 0.734,
+      "weight": 1.327
     },
     "dales": {
       "baseScale": 1.0,
@@ -206,8 +206,8 @@
       "variance": 4
     },
     "dimensions": {
-      "nether": "default",
-      "end": "default"
+      "nether": "biomesoplenty",
+      "end": "biomesoplenty"
     }
   }
 }
