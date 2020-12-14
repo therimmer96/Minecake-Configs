@@ -48,14 +48,14 @@
     "continent": {
       "continentMode": "MULTI",
       "continentShape": "MANHATTAN",
-      "continentScale": 5881
+      "continentScale": 5742
     },
     "controlPoints": {
-      "coast": 0.615,
-      "beach": 0.583,
-      "shallowOcean": 0.504,
-      "inland": 0.674,
-      "deepOcean": 0.412
+      "coast": 0.481,
+      "beach": 0.381,
+      "shallowOcean": 0.321,
+      "inland": 0.559,
+      "deepOcean": 0.232
     },
     "properties": {
       "spawnType": "CONTINENT_CENTER",
