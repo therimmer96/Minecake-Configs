@@ -3,8 +3,8 @@
     "riverCount": 13,
     "wetlands": {
       "chance": 0.202,
-      "sizeMax": 461,
-      "sizeMin": 402
+      "sizeMax": 700,
+      "sizeMin": 450
     },
     "branchRivers": {
       "fade": 0.949,
@@ -206,8 +206,8 @@
       "variance": 4
     },
     "dimensions": {
-      "nether": "biomesoplenty",
-      "end": "biomesoplenty"
+      "nether": "default",
+      "end": "default"
     }
   }
 }
