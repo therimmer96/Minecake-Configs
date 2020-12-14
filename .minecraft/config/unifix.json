@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "forge:nuggets/lead",
+    "prefer": "immersiveengineering:nugget_lead",
+    "exclude": [
+      "immersiveengineering:nugget_lead"
+    ]
+  },
+  {
+    "tag": "forge:ingots/silver",
+    "prefer": "immersiveengineering:ingot_silver",
+    "exclude": [
+      "immersiveengineering:ingot_silver"
+    ]
+  },
+  {
+    "tag": "forge:nuggets/silver",
+    "prefer": "mysticalworld:silver_nugget",
+    "exclude": [
+      "mysticalworld:silver_nugget"
+    ]
+  },
+  {
+    "tag": "forge:ingots/lead",
+    "prefer": "immersiveengineering:ingot_lead",
+    "exclude": [
+      "immersiveengineering:ingot_lead"
+    ]
+  },
+  {
+    "tag": "forge:ingots/tin",
+    "prefer": "mysticalworld:tin_ingot",
+    "exclude": [
+      "mysticalworld:tin_ingot"
+    ]
+  },
+  {
+    "tag": "forge:nuggets/copper",
+    "prefer": "mekanism:nugget_copper",
+    "exclude": [
+      "mekanism:nugget_copper"
+    ]
+  },
+  {
+    "tag": "forge:ingots/copper",
+    "prefer": "mekanism:ingot_copper",
+    "exclude": [
+      "mekanism:ingot_copper"
+    ]
+  },
+  {
+    "tag": "forge:nuggets/tin",
+    "prefer": "mekanism:nugget_tin",
+    "exclude": [
+      "mekanism:nugget_tin"
+    ]
+  }
+]
