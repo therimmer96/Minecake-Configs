@@ -1,0 +1,16 @@
+
+[controller]
+	maxLiftEnergy = 5000000
+	controllerProduction = 16
+
+[size]
+	maxRadius = 2
+	maxHeight = 5
+
+[speed]
+	LiftSpeedDown = 0.35
+	LiftSpeedUp = 0.3
+	LiftSpeedDownOccupied = 0.0
+	LiftSpeedSideways = 0.5
+	LiftAcceleration = 0.025
+

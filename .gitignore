@@ -1,3 +1,4 @@
+natives/
 *.jar
 *.log
 .minecraft/.mixin.out/
