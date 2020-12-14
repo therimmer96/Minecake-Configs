@@ -1,8 +1,7 @@
 
 [energy]
-	#The default transfer limit of a flux connector
 	#Range: > 0
-	defaultLimit = 800000
+	gargantuanTransfer = 1440000
 	#Range: > 0
 	basicCapacity = 1000000
 	#Range: > 0
@@ -10,29 +9,30 @@
 	#Range: > 0
 	herculeanCapacity = 8000000
 	#Range: > 0
-	herculeanTransfer = 120000
-	#Range: > 0
 	gargantuanCapacity = 128000000
+	#The default transfer limit of a flux connector
 	#Range: > 0
-	gargantuanTransfer = 1440000
+	defaultLimit = 800000
+	#Range: > 0
+	herculeanTransfer = 120000
 
 [networks]
+	#See ops.json. If the player has permission level equal or greater to the value set here they will be able to Activate Super Admin. Setting this to 0 will allow anyone to active Super Admin.
+	#Range: > 0
+	superAdminRequiredPermission = 1
 	#Maximum networks each player can have. -1 = no limit
 	#Range: > -1
 	maximumPerPlayer = 5
 	#Allows someone to be a network super admin, otherwise, no one can access or dismantle your flux devices or delete your networks without permission
 	enableSuperAdmin = true
-	#See ops.json. If the player has permission level equal or greater to the value set here they will be able to Activate Super Admin. Setting this to 0 will allow anyone to active Super Admin.
-	#Range: > 0
-	superAdminRequiredPermission = 1
 
 [general]
-	#Enables redstones being compressed with the bedrock and obsidian to get flux
-	enableFluxRecipe = true
 	#Enables redstone being turned into Flux when dropped in fire. (Need "Enable Flux Recipe" = true, so the default recipe can't be disabled if turns this on)
 	enableOldRecipe = false
 	#Allows flux tiles to work as chunk loaders
 	enableChunkLoading = true
+	#Enables redstones being compressed with the bedrock and obsidian to get flux
+	enableFluxRecipe = true
 
 [blacklist]
 	#a blacklist for blocks which flux connections shouldn't connect to, use format 'modid:name@blockstate'

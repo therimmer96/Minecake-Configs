@@ -3,161 +3,84 @@
 [general]
 
 	[general.system]
-		#Installed mod version. Please do not change this.
-		version = "3.0"
 		#Max *nearest* biome search radius. After exceeding this number, WildNature will search for biome ignoring radius.
 		#Default: 25000
 		#Range: 10 ~ 100000000
 		max_search_radius = 25000
-		#Always use WN World Generator on server?
-		#Default:true
-		wn_server_gen = true
-		#Send messages to users on join?
-		#Default:true
-		message_on_join = true
-		#Special effects on join?
-		#Default:true
-		effect_on_join = true
-		#Should render capes?
-		#Default:true
-		render_capes = true
 		#Should change main menu panorama?
 		#Default:true
 		panorama = true
+		#Always use WN World Generator on server?
+		#Default:true
+		wn_server_gen = true
+		#Special effects on join?
+		#Default:true
+		effect_on_join = true
 		#Use new world loading screen?
 		#Default:true
 		worldLoadScreen = true
+		#Installed mod version. Please do not change this.
+		version = "3.0"
+		#Send messages to users on join?
+		#Default:true
+		message_on_join = true
+		#Should render capes?
+		#Default:true
+		render_capes = true
 
 [generator]
-	#Generator version. 
-	#Accepted Values: new | old
-	#Warning: old isn't supported anymore and will be deleted soon
-	generatorTypeX = "new"
 	#Generator Threads. Set to 8 if your world load will freeze. It's experimental!
 	#Default: 2
 	#Range: 1 ~ 16
 	generatorThreads = 8
-	#Biome Size //deprecated
-	#Default: 5
-	#Range: 1 ~ 20
-	biomeSize = 5
 	#River Size //deprecated
 	#Default: 4
 	#Range: 1 ~ 20
 	riverSize = 4
+	#Generator version. 
+	#Accepted Values: new | old
+	#Warning: old isn't supported anymore and will be deleted soon
+	generatorTypeX = "new"
+	#Biome Size //deprecated
+	#Default: 5
+	#Range: 1 ~ 20
+	biomeSize = 5
 
 	[generator.size]
-		#Terrain map size
-		#Default: 2500
-		#Range: 10 ~ 24000
-		terrain = 2500
-		#Biome map size
-		#Default: 750
-		#Range: 10 ~ 24000
-		biome = 750
-		#SubBiome map size
-		#Default: 250
-		#Range: 10 ~ 24000
-		subBiome = 250
 		#Underground map size
 		#Default: 1000
 		#Range: 10 ~ 24000
 		undergroundBiome = 1000
-		#Big Island map size
-		#Default: 500
-		#Range: 10 ~ 24000
-		bigIsland = 500
 		#Small Island map size
 		#Default: 130
 		#Range: 10 ~ 24000
 		smallIsland = 130
-
-	[generator.rarity]
-		#Big Island rarity
-		#Smaller = more common
-		#Default: 18
-		#Range: 1 ~ 24000
-		bigIsland = 18
-		#Small Island rarity
-		#Smaller = more common
-		#Default: 24
-		#Range: 1 ~ 24000
-		smallIsland = 24
-
-	[generator.ores]
-		#Generate Ores?
-		#Default: true
-		all = true
-		#Tin ore rarity
-		#Smaller = more rare
-		#Default: 8
-		#Range: 0 ~ 500
-		tin_rarity = 8
-		#Copper ore rarity
-		#Smaller = more rare
-		#Default: 6
-		#Range: 0 ~ 500
-		copper_rarity = 8
-		#Amethyst small gem formation rarity
-		#Smaller = more rare
-		#Default: 1
-		#Range: 0 ~ 500
-		amethyst_small_rarity = 1
-		#Amethyst big gem formation rarity
-		#Smaller = more rare
-		#Default: 1
-		#Range: 0 ~ 500
-		amethyst_big_rarity = 1
-		#Sapphire small gem formation rarity
-		#Smaller = more rare
-		#Default: 2
-		#Range: 0 ~ 500
-		sapphire_small_rarity = 2
-		#Sapphire big gem formation rarity
-		#Smaller = more rare
-		#Default: 1
-		#Range: 0 ~ 500
-		sapphire_big_rarity = 1
-		#Malachite gem formation rarity
-		#Smaller = more rare
-		#Default: 2
-		#Range: 0 ~ 500
-		malachite_rarity = 2
-		#Silver ore rarity
-		#Smaller = more rare
-		#Default: 1
-		#Range: 0 ~ 500
-		silver_rarity = 1
-		#Amber ore rarity. Ambers generates on beaches only!!!
-		#Smaller = more rare
-		#Default: 3
-		#Range: 0 ~ 500
-		amber_rarity = 3
-		#Ruby small gem formation rarity
-		#Smaller = more rare
-		#Default: 2
-		#Range: 0 ~ 500
-		ruby_small_rarity = 2
-		#Ruby big gem formation rarity
-		#Smaller = more rare
-		#Default: 1
-		#Range: 0 ~ 500
-		ruby_big_rarity = 1
-		#Stone salt ore rarity
-		#Smaller = more rare
-		#Default: 7
-		#Range: 0 ~ 500
-		salt_stone_rarity = 7
-		#Sandy salt ore rarity
-		#Smaller = more rare
-		#Default: 6
-		#Range: 0 ~ 500
-		salt_sand_rarity = 6
+		#Biome map size
+		#Default: 750
+		#Range: 10 ~ 24000
+		biome = 750
+		#Terrain map size
+		#Default: 2500
+		#Range: 10 ~ 24000
+		terrain = 2500
+		#Big Island map size
+		#Default: 500
+		#Range: 10 ~ 24000
+		bigIsland = 500
+		#SubBiome map size
+		#Default: 250
+		#Range: 10 ~ 24000
+		subBiome = 250
 
 	[generator.rocks]
 		#Generate Rocks?
 		#Default: true
 		all = true
+		#Rock formation chance
+		#Smaller = more common
+		#Default: 7
+		#Range: 0 ~ 10000
+		formation_chance = 7
 		#Chance of rock generation
 		#Default: 10
 		#Range: 0 ~ 100
@@ -166,51 +89,270 @@
 		#Default: 33
 		#Range: 0 ~ 100
 		size = 10
-		#Rock formation chance
-		#Smaller = more common
-		#Default: 7
-		#Range: 0 ~ 10000
-		formation_chance = 7
 
 		[generator.rocks.define]
-			#Generate Basalt?
-			#If you set generator.rocks.all to FALSE, changing this has no sense
-			#Default: true
-			basalt = true
-			#Generate Gneiss?
-			#If you set generator.rocks.all to FALSE, changing this has no sense
-			#Default: true
-			gneiss = true
-			#Generate Limestone?
-			#If you set generator.rocks.all to FALSE, changing this has no sense
-			#Default: true
-			limestone = true
-			#Generate Marble?
-			#If you set generator.rocks.all to FALSE, changing this has no sense
-			#Default: true
-			marble = true
 			#Generate Quartzite?
 			#If you set generator.rocks.all to FALSE, changing this has no sense
 			#Default: false (w.i.p)
 			quartzite = false
+			#Generate Marble?
+			#If you set generator.rocks.all to FALSE, changing this has no sense
+			#Default: true
+			marble = true
+			#Generate Basalt?
+			#If you set generator.rocks.all to FALSE, changing this has no sense
+			#Default: true
+			basalt = true
 			#Generate Blue Slate?
 			#If you set generator.rocks.all to FALSE, changing this has no sense
 			#Default: false (w.i.p)
 			slate_blue = false
+			#Generate Limestone?
+			#If you set generator.rocks.all to FALSE, changing this has no sense
+			#Default: true
+			limestone = true
 			#Generate Purple Slate?
 			#If you set generator.rocks.all to FALSE, changing this has no sense
 			#Default: false (w.i.p)
 			slate_purple = false
+			#Generate Gneiss?
+			#If you set generator.rocks.all to FALSE, changing this has no sense
+			#Default: true
+			gneiss = true
+
+	[generator.ores]
+		#Generate Ores?
+		#Default: true
+		all = true
+		#Sapphire big gem formation rarity
+		#Smaller = more rare
+		#Default: 1
+		#Range: 0 ~ 500
+		sapphire_big_rarity = 1
+		#Amethyst small gem formation rarity
+		#Smaller = more rare
+		#Default: 1
+		#Range: 0 ~ 500
+		amethyst_small_rarity = 1
+		#Stone salt ore rarity
+		#Smaller = more rare
+		#Default: 7
+		#Range: 0 ~ 500
+		salt_stone_rarity = 7
+		#Silver ore rarity
+		#Smaller = more rare
+		#Default: 1
+		#Range: 0 ~ 500
+		silver_rarity = 1
+		#Sandy salt ore rarity
+		#Smaller = more rare
+		#Default: 6
+		#Range: 0 ~ 500
+		salt_sand_rarity = 6
+		#Ruby small gem formation rarity
+		#Smaller = more rare
+		#Default: 2
+		#Range: 0 ~ 500
+		ruby_small_rarity = 2
+		#Tin ore rarity
+		#Smaller = more rare
+		#Default: 8
+		#Range: 0 ~ 500
+		tin_rarity = 8
+		#Amber ore rarity. Ambers generates on beaches only!!!
+		#Smaller = more rare
+		#Default: 3
+		#Range: 0 ~ 500
+		amber_rarity = 3
+		#Ruby big gem formation rarity
+		#Smaller = more rare
+		#Default: 1
+		#Range: 0 ~ 500
+		ruby_big_rarity = 1
+		#Malachite gem formation rarity
+		#Smaller = more rare
+		#Default: 2
+		#Range: 0 ~ 500
+		malachite_rarity = 2
+		#Sapphire small gem formation rarity
+		#Smaller = more rare
+		#Default: 2
+		#Range: 0 ~ 500
+		sapphire_small_rarity = 2
+		#Amethyst big gem formation rarity
+		#Smaller = more rare
+		#Default: 1
+		#Range: 0 ~ 500
+		amethyst_big_rarity = 1
+		#Copper ore rarity
+		#Smaller = more rare
+		#Default: 6
+		#Range: 0 ~ 500
+		copper_rarity = 8
 
 	[generator.biome]
-		#Generate Biomes?
-		#Default: true
-		generate = true
 		#Generate only WildNature biomes?
 		#Default: false
 		generate_only_wildnature = false
 		#Insert biome ids that shouldn't generate naturally. Example - wildnature:grasslands,wildnature:bog
 		blacklist = ""
+		#Generate Biomes?
+		#Default: true
+		generate = true
+
+		[generator.biome.feature]
+			#Posion ivy & spidergrass & thistle & nettle rarity
+			#Smaller = more rare
+			#Default: 2
+			#Range: 0 ~ 500
+			ivy_rarity = 2
+			#Vegetable crops spawn rarity
+			#Smaller = more rare
+			#Default: 2
+			#Range: 0 ~ 500
+			vege_crops_rarity = 2
+			#Should generate fallen trees?
+			#Default: 64
+			#Range: 0 ~ 500
+			beehiveRarity = 256
+			#Pathway noise frequency
+			#Default: 0.005
+			#Range: 1.0E-5 ~ 100.0
+			pathway_frequency = 0.005
+			#Should generate big glowshrooms?
+			#Default: true
+			bigGlowshrooms = true
+			#Shell generation rarity
+			#Smaller = more rare
+			#Default: 6
+			#Range: 0 ~ 500
+			shell_rarity = 6
+			#River cane density
+			#Smaller = less
+			#Default: 10
+			#Range: 0 ~ 500
+			river_cane_density = 10
+			#Should generate water lakes?
+			#Default: true
+			waterLakeGeneration = true
+			#River cane rarity
+			#Smaller = more rare
+			#Default: 10
+			#Range: 0 ~ 500
+			river_cane_rarity = 10
+			#Should generate beehives?
+			#Default: true
+			beehives = true
+			#Should generate cave plants like glowing mushrooms
+			#Default: true
+			cavePlants = true
+			#Generate underground rivers?
+			#Default: true
+			undergroundRivers = true
+			#Should generate lava lakes?
+			#Default: true
+			lavaLakeGeneration = true
+			#Should generate small cacti?
+			#Default: true
+			small_cacti = true
+			#Small cacti rarity
+			#Smaller = more rare
+			#Default: 5
+			#Range: 0 ~ 500
+			small_cacti_rarity = 5
+			#Tree lichen spawn rarity in dense forests
+			#Smaller = more rare
+			#Default: 5
+			#Range: 0 ~ 500
+			tree_lichen_rarity_dense = 5
+			#Should generate poison ives & spidergrass?
+			#Default: true
+			special_plants = true
+			#Should generate lava springs?
+			#Default: true
+			lavaSpringGeneration = true
+			#Should generate glowing cave oaks?
+			#Default: true
+			glowingCaveOaks = true
+			#Should generate fallen trees?
+			#Default: true
+			fallenTrees = true
+			#Should generate crystals?
+			#Default: true
+			crystals = true
+			#Should generate pebbles?
+			#Default: true
+			pebbles = true
+			#Should generate cobweb?
+			#Default: true
+			cobweb = true
+			#Should generate shells?
+			#Default: true
+			shells = true
+			#Tree lichen spawn rarity in forests
+			#Smaller = more rare
+			#Default: 2
+			#Range: 0 ~ 500
+			tree_lichen_rarity = 2
+			#Replace vanilla trees with WildNature ones?
+			#Default: true
+			replaceDefaultTrees = true
+			#Should generate quicksand?
+			#Default: true
+			quicksand = true
+			#Fruit bushes spawn rarity
+			#Smaller = more rare
+			#Default: 3
+			#Range: 0 ~ 500
+			fruit_bushes_rarity = 3
+			#Moss spawn rarity in forests
+			#Smaller = more rare
+			#Default: 4
+			#Range: 0 ~ 500
+			moss_rarity = 4
+			#Should generate pathways?
+			#Default: true
+			pathways = true
+			#Should generate fences near wild farms?
+			#Default: true
+			vege_farm_fence = true
+			#Should generate moss?
+			#Default: true
+			moss = true
+			#Vege Crop spawn chance. Spawns if random from 0 and <number> equals 0
+			#Smaller = more common
+			#Default: 1
+			#Range: 0 ~ 500
+			fruit_bushes_chance = 1
+			#Should generate stalagmites?
+			#Default: true
+			stalagmites = true
+			#Should generate vines?
+			#Default: true
+			vines = true
+			#Should generate fruit bushes?
+			#Default: true
+			fruit_bushes = true
+			#Should generate rock formations?
+			#Default: true
+			rock_formations = true
+			#Should generate vege crops?
+			#Default: true
+			vege_crops = true
+			#Should generate mud?
+			#Default: true
+			mud = true
+			#Moss spawn rarity in dense forests
+			#Smaller = more rare
+			#Default: 8
+			#Range: 0 ~ 500
+			moss_rarity_dense = 8
+			#Should generate water springs?
+			#Default: true
+			waterSpringGeneration = true
+			#Should generate river cane?
+			#Default: true
+			river_cane = true
 
 		[generator.biome.river]
 			#Depth of all of rivers
@@ -219,180 +361,41 @@
 			depth = -0.5
 
 		[generator.biome.group]
+			#Chance of sub-biome spawn
+			#Default: 5
+			#Range: 0 ~ 10
+			chance = 5
 			#Size of sub-biomes
 			#bigger sub-biomes = lower number
 			#Default: 3
 			#Range: 1 ~ 100
 			size = 3
-			#Chance of sub-biome spawn
-			#Default: 5
-			#Range: 0 ~ 10
-			chance = 5
 
-		[generator.biome.feature]
-			#Replace vanilla trees with WildNature ones?
-			#Default: true
-			replaceDefaultTrees = true
-			#Should generate cave plants like glowing mushrooms
-			#Default: true
-			cavePlants = true
-			#Should generate crystals?
-			#Default: true
-			crystals = true
-			#Should generate stalagmites?
-			#Default: true
-			stalagmites = true
-			#Should generate pebbles?
-			#Default: true
-			pebbles = true
-			#Should generate cobweb?
-			#Default: true
-			cobweb = true
-			#Should generate rock formations?
-			#Default: true
-			rock_formations = true
-			#Should generate glowing cave oaks?
-			#Default: true
-			glowingCaveOaks = true
-			#Should generate big glowshrooms?
-			#Default: true
-			bigGlowshrooms = true
-			#Should generate poison ives & spidergrass?
-			#Default: true
-			special_plants = true
-			#Should generate fruit bushes?
-			#Default: true
-			fruit_bushes = true
-			#Should generate vege crops?
-			#Default: true
-			vege_crops = true
-			#Should generate vines?
-			#Default: true
-			vines = true
-			#Should generate river cane?
-			#Default: true
-			river_cane = true
-			#Should generate small cacti?
-			#Default: true
-			small_cacti = true
-			#Should generate shells?
-			#Default: true
-			shells = true
-			#Should generate moss?
-			#Default: true
-			moss = true
-			#Should generate fallen trees?
-			#Default: true
-			fallenTrees = true
-			#Should generate beehives?
-			#Default: true
-			beehives = true
-			#Should generate fallen trees?
-			#Default: 64
-			#Range: 0 ~ 500
-			beehiveRarity = 256
-			#Should generate quicksand?
-			#Default: true
-			quicksand = true
-			#Should generate mud?
-			#Default: true
-			mud = true
-			#Should generate fences near wild farms?
-			#Default: true
-			vege_farm_fence = true
-			#Fruit bushes spawn rarity
-			#Smaller = more rare
-			#Default: 3
-			#Range: 0 ~ 500
-			fruit_bushes_rarity = 3
-			#Vegetable crops spawn rarity
-			#Smaller = more rare
-			#Default: 2
-			#Range: 0 ~ 500
-			vege_crops_rarity = 2
-			#Vege Crop spawn chance. Spawns if random from 0 and <number> equals 0
-			#Smaller = more common
-			#Default: 1
-			#Range: 0 ~ 500
-			fruit_bushes_chance = 1
-			#Posion ivy & spidergrass & thistle & nettle rarity
-			#Smaller = more rare
-			#Default: 2
-			#Range: 0 ~ 500
-			ivy_rarity = 2
-			#River cane rarity
-			#Smaller = more rare
-			#Default: 10
-			#Range: 0 ~ 500
-			river_cane_rarity = 10
-			#River cane density
-			#Smaller = less
-			#Default: 10
-			#Range: 0 ~ 500
-			river_cane_density = 10
-			#Small cacti rarity
-			#Smaller = more rare
-			#Default: 5
-			#Range: 0 ~ 500
-			small_cacti_rarity = 5
-			#Shell generation rarity
-			#Smaller = more rare
-			#Default: 6
-			#Range: 0 ~ 500
-			shell_rarity = 6
-			#Moss spawn rarity in forests
-			#Smaller = more rare
-			#Default: 4
-			#Range: 0 ~ 500
-			moss_rarity = 4
-			#Moss spawn rarity in dense forests
-			#Smaller = more rare
-			#Default: 8
-			#Range: 0 ~ 500
-			moss_rarity_dense = 8
-			#Tree lichen spawn rarity in forests
-			#Smaller = more rare
-			#Default: 2
-			#Range: 0 ~ 500
-			tree_lichen_rarity = 2
-			#Tree lichen spawn rarity in dense forests
-			#Smaller = more rare
-			#Default: 5
-			#Range: 0 ~ 500
-			tree_lichen_rarity_dense = 5
-			#Should generate pathways?
-			#Default: true
-			pathways = true
-			#Generate underground rivers?
-			#Default: true
-			undergroundRivers = true
-			#Pathway noise frequency
-			#Default: 0.005
-			#Range: 1.0E-5 ~ 100.0
-			pathway_frequency = 0.005
-			#Should generate water lakes?
-			#Default: true
-			waterLakeGeneration = true
-			#Should generate lava lakes?
-			#Default: true
-			lavaLakeGeneration = true
-			#Should generate water springs?
-			#Default: true
-			waterSpringGeneration = true
-			#Should generate lava springs?
-			#Default: true
-			lavaSpringGeneration = true
+	[generator.rarity]
+		#Small Island rarity
+		#Smaller = more common
+		#Default: 24
+		#Range: 1 ~ 24000
+		smallIsland = 24
+		#Big Island rarity
+		#Smaller = more common
+		#Default: 18
+		#Range: 1 ~ 24000
+		bigIsland = 18
 
 [sound]
+	#[W.I.P] Ambient sounds volume
+	#Range: 0.1 ~ 1.0
+	volume_ambient = 1.0
 	#[W.I.P] Play WildNature music?
 	play_music = false
 	#[W.I.P] Play ambient sounds on biomes?
 	play_ambient = true
-	#[W.I.P] Ambient sounds volume
-	#Range: 0.1 ~ 1.0
-	volume_ambient = 1.0
 
 [block]
+	#Poison ivy poisons on walk?
+	#Default: true
+	poisonIvyPoison = true
 	#Steam Particle max age multiplier - how long does steam live
 	#Default: 10.0
 	#Range: 1.0 ~ 100.0
@@ -400,16 +403,6 @@
 	#Flower disappears on walk?
 	#Default: true
 	flowerDisappears = true
-	#Poison ivy hurts on walk?
-	#Default: true
-	poisonIvyHurts = true
-	#Poison ivy poisons on walk?
-	#Default: true
-	poisonIvyPoison = true
-	#Poison ivy damage?
-	#Default: 0.5
-	#Range: 0.0 ~ 1000.0
-	poisonIvyDamage = 0.5
 	#Leaf fruit chance
 	#Default: 10
 	#Range: 0 ~ 1000
@@ -418,45 +411,52 @@
 	#Default: 10
 	#Range: 0 ~ 1000
 	flowerBloomChance = 10
+	#Can all veggies normally spawn on normal grass?
+	#Default: false
+	vegeGrassSpawn = false
+	#Poison ivy damage?
+	#Default: 0.5
+	#Range: 0.0 ~ 1000.0
+	poisonIvyDamage = 0.5
+	#Poison ivy hurts on walk?
+	#Default: true
+	poisonIvyHurts = true
 	#Flower drop chance
 	#Default: 2
 	#Range: 0 ~ 1000
 	flowerDropChance = 2
-	#Can all veggies normally spawn on normal grass?
-	#Default: false
-	vegeGrassSpawn = false
 
 	[block.ore]
-		#Amber ore harvest level
-		#Default: 3 - diamond+
-		#Range: 0 ~ 100
-		amberOreHarvestLevel = 3
-		#Tin ore harvest level
-		#Default: 1 - stone+
-		#Range: 0 ~ 100
-		tinOreHarvestLevel = 1
-		#Copper ore harvest level
-		#Default: 2 - iron+
-		#Range: 0 ~ 100
-		copperOreHarvestLevel = 2
-		#Silver ore harvest level
-		#Default: 3 - diamond+
-		#Range: 0 ~ 100
-		silverOreHarvestLevel = 3
-		#Sapphire ore harvest level
-		#Default: 3 - diamond+
-		#Range: 0 ~ 100
-		sapphireOreHarvestLevel = 3
 		#Ruby ore harvest level
 		#Default: 3 - diamond+
 		#Range: 0 ~ 100
 		rubyOreHarvestLevel = 3
-		#Malachite ore harvest level
-		#Default: 4 - silver+
+		#Copper ore harvest level
+		#Default: 2 - iron+
 		#Range: 0 ~ 100
-		malachiteOreHarvestLevel = 4
+		copperOreHarvestLevel = 2
+		#Sapphire ore harvest level
+		#Default: 3 - diamond+
+		#Range: 0 ~ 100
+		sapphireOreHarvestLevel = 3
+		#Tin ore harvest level
+		#Default: 1 - stone+
+		#Range: 0 ~ 100
+		tinOreHarvestLevel = 1
+		#Amber ore harvest level
+		#Default: 3 - diamond+
+		#Range: 0 ~ 100
+		amberOreHarvestLevel = 3
 		#Amethyst ore harvest level
 		#Default: 5 - ruby+/sapphire+/malachite+
 		#Range: 0 ~ 100
 		amethystOreHarvestLevel = 5
+		#Malachite ore harvest level
+		#Default: 4 - silver+
+		#Range: 0 ~ 100
+		malachiteOreHarvestLevel = 4
+		#Silver ore harvest level
+		#Default: 3 - diamond+
+		#Range: 0 ~ 100
+		silverOreHarvestLevel = 3
 

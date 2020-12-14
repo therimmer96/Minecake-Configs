@@ -1,4 +1,5 @@
 natives/
+.minecraft/cache/
 *.jar
 *.log
 .minecraft/.mixin.out/
