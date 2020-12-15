@@ -48,14 +48,14 @@
     "continent": {
       "continentMode": "MULTI",
       "continentShape": "MANHATTAN",
-      "continentScale": 5742
+      "continentScale": 5000
     },
     "controlPoints": {
-      "coast": 0.481,
-      "beach": 0.381,
-      "shallowOcean": 0.321,
-      "inland": 0.559,
-      "deepOcean": 0.232
+      "coast": 0.36,
+      "beach": 0.269,
+      "shallowOcean": 0.187,
+      "inland": 0.636,
+      "deepOcean": 0.143
     },
     "properties": {
       "spawnType": "CONTINENT_CENTER",
@@ -119,7 +119,7 @@
       "strength": 34,
       "scale": 15,
       "type": "PERLIN",
-      "lacunarity": 6.534,
+      "lacunarity": 6.533,
       "gain": 2.019
     }
   },
