@@ -64,9 +64,9 @@
 	#If true we allow shape cards to be crafted. Note that in order to use the quarry system you must also enable this
 	shapeCardAllowed = true
 	#If true we allow quarry cards to be crafted
-	quarryAllowed = true
+	quarryAllowed = false
 	#If true we allow the clearing quarry cards to be crafted (these can be heavier on the server)
-	clearingQuarryAllowed = true
+	clearingQuarryAllowed = false
 	#The base speed (number of blocks per tick) of the quarry
 	#Range: > 0
 	quarryBaseSpeed = 8
