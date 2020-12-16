@@ -5,7 +5,7 @@ disable_fake_players = false
 max_claimed_chunks = 500
 #Max force loaded chunks.
 #Range: > 0
-max_force_loaded_chunks = 25
+max_force_loaded_chunks = 9
 #Forced modes won't let players change their ally settings.
 #Allowed Values: DEFAULT, FORCED_ALL, FORCED_NONE
 ally_mode = "DEFAULT"
