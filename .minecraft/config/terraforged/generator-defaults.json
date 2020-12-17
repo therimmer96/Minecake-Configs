@@ -48,13 +48,13 @@
     "continent": {
       "continentMode": "MULTI",
       "continentShape": "MANHATTAN",
-      "continentScale": 5000
+      "continentScale": 5500
     },
     "controlPoints": {
       "coast": 0.36,
-      "beach": 0.269,
+      "beach": 0.268,
       "shallowOcean": 0.187,
-      "inland": 0.636,
+      "inland": 0.634,
       "deepOcean": 0.143
     },
     "properties": {
@@ -96,7 +96,7 @@
   "climate": {
     "biomeShape": {
       "biomeWarpStrength": 36,
-      "biomeSize": 395,
+      "biomeSize": 380,
       "macroNoiseSize": 4,
       "biomeWarpScale": 280
     },
@@ -105,7 +105,7 @@
       "min": 0.0,
       "max": 1.0,
       "bias": 0.082,
-      "scale": 3
+      "scale": 5
     },
     "moisture": {
       "falloff": 1,
@@ -119,7 +119,7 @@
       "strength": 34,
       "scale": 15,
       "type": "PERLIN",
-      "lacunarity": 6.533,
+      "lacunarity": 6.532,
       "gain": 2.019
     }
   },
