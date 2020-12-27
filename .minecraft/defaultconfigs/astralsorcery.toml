@@ -253,27 +253,27 @@
 		[perks.root.discidia]
 			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
 			#Range: 0.10000000149011612 ~ 20.0
-			expMultiplier = 1.0
+			expMultiplier = 0.2
 
 		[perks.root.armara]
 			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
 			#Range: 0.10000000149011612 ~ 20.0
-			expMultiplier = 1.0
+			expMultiplier = 0.2
 
 		[perks.root.aevitas]
 			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
 			#Range: 0.10000000149011612 ~ 20.0
-			expMultiplier = 1.0
+			expMultiplier = 0.2
 
 		[perks.root.evorsio]
 			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
 			#Range: 0.10000000149011612 ~ 20.0
-			expMultiplier = 1.0
+			expMultiplier = 0.2
 
 		[perks.root.vicio]
 			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
 			#Range: 0.10000000149011612 ~ 20.0
-			expMultiplier = 1.0
+			expMultiplier = 0.1
 
 [enchantment_amulet]
 	#Defines the chance to roll a 2nd-enchantment-manipulating roll on the amulet. Value defines a percent chance from 0% to 100%. Setting this to 0 also prevents a 3rd roll
