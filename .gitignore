@@ -33,3 +33,4 @@ natives/META-INF/MANIFEST.MF
 .minecraft/config/advanced_xray.cfg
 .minecraft/resources/assets/fml/textures/gui/ftb.gif
 *.zip
+*.disabled

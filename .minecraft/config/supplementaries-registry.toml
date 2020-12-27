@@ -1,0 +1,39 @@
+
+#Enable and disable blocks / entities
+[registration]
+
+	[registration.entities]
+		firefly = true
+
+	[registration.blocks]
+		clock_block = true
+		pedestal = true
+		sconce_soul = true
+		speaker_block = true
+		#WIP
+		flag = true
+		bellows = true
+		notice_board = true
+		hanging_sign = true
+		mob_cage = true
+		redstone_illuminator = true
+		#WIP
+		laser = true
+		planter = true
+		wind_vane = true
+		hourglass = true
+		jar = true
+		sconce_ender = true
+		item_shelf = true
+		turn_table = true
+		faucet = true
+		crank = true
+		sconce_green = true
+		globe = true
+		sconce = true
+		candelabra = true
+		spring_launcher = true
+		sconce_lever = true
+		candelabra_silver = true
+		sign_post = true
+
