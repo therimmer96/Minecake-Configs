@@ -1,6 +1,6 @@
 [
 	{
-		"tag": "forge:ingots/coppper",
+		"tag": "forge:ingots/copper",
 		"prefer": "thermal:copper_ingot",
 		"exclude": [
 			"thermal:copper_ingot"
@@ -34,8 +34,57 @@
 			"thermal:nickel_ingot"
 		]
 	},
-		{
-		"tag": "forge:nuggets/coppper",
+	{
+		"tag": "forge:ingots/bronze",
+		"prefer": "thermal:bronze_ingot",
+		"exclude": [
+			"thermal:bronze_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/electrum",
+		"prefer": "thermal:electrum_ingot",
+		"exclude": [
+			"thermal:electrum_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/invar",
+		"prefer": "thermal:invar_ingot",
+		"exclude": [
+			"thermal:invar_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/constantan",
+		"prefer": "thermal:constantan_ingot",
+		"exclude": [
+			"thermal:constantan_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/signalum",
+		"prefer": "thermal:signalum_ingot",
+		"exclude": [
+			"thermal:signalum_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/lumium",
+		"prefer": "thermal:lumium_ingot",
+		"exclude": [
+			"thermal:lumium_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/enderium",
+		"prefer": "thermal:enderium_ingot",
+		"exclude": [
+			"thermal:enderium_ingot"
+		]
+	},
+	{
+		"tag": "forge:nuggets/copper",
 		"prefer": "thermal:copper_nugget",
 		"exclude": [
 			"thermal:copper_nugget"
@@ -69,8 +118,57 @@
 			"thermal:nickel_nugget"
 		]
 	},
-		{
-		"tag": "forge:dusts/coppper",
+	{
+		"tag": "forge:nuggets/bronze",
+		"prefer": "thermal:bronze_nugget",
+		"exclude": [
+			"thermal:bronze_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/electrum",
+		"prefer": "thermal:electrum_nugget",
+		"exclude": [
+			"thermal:electrum_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/invar",
+		"prefer": "thermal:invar_nugget",
+		"exclude": [
+			"thermal:invar_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/constantan",
+		"prefer": "thermal:constantan_nugget",
+		"exclude": [
+			"thermal:constantan_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/signalum",
+		"prefer": "thermal:signalum_nugget",
+		"exclude": [
+			"thermal:signalum_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/lumium",
+		"prefer": "thermal:lumium_nugget",
+		"exclude": [
+			"thermal:lumium_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/enderium",
+		"prefer": "thermal:enderium_nugget",
+		"exclude": [
+			"thermal:enderium_nugget"
+		]
+	},
+	{
+		"tag": "forge:dusts/copper",
 		"prefer": "thermal:copper_dust",
 		"exclude": [
 			"thermal:copper_dust"
@@ -102,6 +200,83 @@
 		"prefer": "thermal:nickel_dust",
 		"exclude": [
 			"thermal:nickel_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/bronze",
+		"prefer": "thermal:bronze_dust",
+		"exclude": [
+			"thermal:bronze_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/electrum",
+		"prefer": "thermal:electrum_dust",
+		"exclude": [
+			"thermal:electrum_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/invar",
+		"prefer": "thermal:invar_dust",
+		"exclude": [
+			"thermal:invar_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/constantan",
+		"prefer": "thermal:constantan_dust",
+		"exclude": [
+			"thermal:constantan_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/signalum",
+		"prefer": "thermal:signalum_dust",
+		"exclude": [
+			"thermal:signalum_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/lumium",
+		"prefer": "thermal:lumium_dust",
+		"exclude": [
+			"thermal:lumium_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/enderium",
+		"prefer": "thermal:enderium_dust",
+		"exclude": [
+			"thermal:enderium_dust"
+		]
+	},
+	{
+		"tag": "forge:gems/apatite",
+		"prefer": "thermal:apatite_gem",
+		"exclude": [
+			"thermal:apatite_gem"
+		]
+	},
+	{
+		"tag": "forge:gems/niter",
+		"prefer": "thermal:niter_gem",
+		"exclude": [
+			"thermal:niter_gem"
+		]
+	},
+	{
+		"tag": "forge:gems/cinnabar",
+		"prefer": "thermal:cinnabar_gem",
+		"exclude": [
+			"thermal:cinnabar_gem"
+		]
+	},
+	{
+		"tag": "forge:gems/sulfur",
+		"prefer": "thermal:sulfur_gem",
+		"exclude": [
+			"thermal:sulfur_gem"
 		]
 	}
 ]

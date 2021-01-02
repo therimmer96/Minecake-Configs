@@ -24,3 +24,12 @@ furnace.addRecipe("silverunify", <item:thermal:silver_ingot>, <item:wildnature:s
 
 <tag:forge:ingots>.addItems([<item:wildnature:bronze_ingot>]);
 <tag:forge:ingots/bronze>.addItems([<item:wildnature:bronze_ingot>]);
+
+craftingTable.addShapeless("CopperConvertTo", <item:wildnature:copper_ingot>, [<item:thermal:copper_ingot>]);
+craftingTable.addShapeless("CopperConvertFrom", <item:thermal:copper_ingot>, [<item:wildnature:copper_ingot>]);
+
+craftingTable.addShapeless("TinConvertTo", <item:wildnature:Tin_ingot>, [<item:thermal:Tin_ingot>]);
+craftingTable.addShapeless("TinConvertFrom", <item:thermal:Tin_ingot>, [<item:wildnature:Tin_ingot>]);
+
+craftingTable.addShapeless("SilverConvertTo", <item:wildnature:Silver_ingot>, [<item:thermal:Silver_ingot>]);
+craftingTable.addShapeless("SilverConvertFrom", <item:thermal:Silver_ingot>, [<item:wildnature:Silver_ingot>]);
