@@ -1,0 +1,220 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 28/12/2020, 21:38
+Description: Initializing game
+
+java.lang.ExceptionInInitializerError: null
+	at net.minecraft.client.gui.fonts.FontResourceManager.func_212318_b(SourceFile:152) ~[?:?] {re:classloading}
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1133) ~[?:?] {}
+	at net.minecraft.client.gui.fonts.FontResourceManager.func_211504_a(SourceFile:151) ~[?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:408) ~[?:?] {re:classloading,pl:accesstransformer:B,xf:fml:codechickenlib:IItemRenderer,xf:fml:randompatches:RandomPatches Minecraft Transformer,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(SourceFile:166) ~[minecraft-1.15.2-client.jar:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) ~[forge-1.15.2-31.2.47-launcher.jar:31.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.2.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.2.jar:?] {re:classloading}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:50) [ForgeWrapper-1.4.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?] {}
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?] {}
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?] {}
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?] {}
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?] {}
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 65
+	at it.unimi.dsi.fastutil.objects.ObjectOpenCustomHashSet.rehash(ObjectOpenCustomHashSet.java:683) ~[fastutil-8.2.1.jar:?] {re:classloading}
+	at it.unimi.dsi.fastutil.objects.ObjectOpenCustomHashSet.addOrGet(ObjectOpenCustomHashSet.java:360) ~[fastutil-8.2.1.jar:?] {re:classloading}
+	at net.minecraft.client.renderer.RenderType$Type.func_228676_c_(SourceFile:655) ~[?:?] {re:classloading}
+	at net.minecraft.client.renderer.RenderType$Type.func_228675_b_(SourceFile:638) ~[?:?] {re:classloading}
+	at net.minecraft.client.renderer.RenderType.func_228633_a_(SourceFile:402) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.renderer.RenderType.func_228658_l_(SourceFile:320) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.gui.fonts.EmptyGlyph.<init>(SourceFile:10) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.fonts.Font.<clinit>(SourceFile:30) ~[?:?] {re:classloading}
+	... 24 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.gui.fonts.FontResourceManager.func_212318_b(SourceFile:152)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1133)
+	at net.minecraft.client.gui.fonts.FontResourceManager.func_211504_a(SourceFile:151)
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:408)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.main.Main.main(SourceFile:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 11.0.9.1, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 5097014272 bytes (4860 MB) / 6941573120 bytes (6620 MB) up to 10737418240 bytes (10240 MB)
+	CPUs: 12
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms6144m -Xmx10240m
+	ModLauncher: 5.1.2+70+master.2845bb9
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-2.2.1-service.jar eventbus PLUGINSERVICE 
+		/forge-1.15.2-31.2.47-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.2.47-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/forge-1.15.2-31.2.47-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/accesstransformers-2.1.3-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.15.2-31.2.47-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.15.2-31.2.47-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 31.2
+	Forge: net.minecraftforge:31.2.47
+	FML Language Providers: 
+		javafml@31.2
+		minecraft@1
+	Mod List: 
+		astralsorcery-1.15.2-1.12.14.jar Astral Sorcery {astralsorcery@1.15.2-1.12.14 LOAD_REGISTRIES}
+		NetherPortalFix_1.15.2-6.0.2.jar NetherPortalFix {netherportalfix@6.0.2 LOAD_REGISTRIES}
+		areas_1.15.2-1.1.jar Areas {areas@1.1 LOAD_REGISTRIES}
+		refinedpipes-0.4.2.jar Refined Pipes {refinedpipes@0.4.2 LOAD_REGISTRIES}
+		mcws-win-1.15.2-v1.0.2.jar Macaw's Windows {mcwwindows@1.0.2 LOAD_REGISTRIES}
+		KleeSlabs_1.15.2-8.0.0.jar KleeSlabs {kleeslabs@8.0.0 LOAD_REGISTRIES}
+		rsgauges-1.15.2-1.2.4.jar Gauges and Switches {rsgauges@1.2.4 LOAD_REGISTRIES}
+		TerraForged-1.15.2-0.1.3.jar TerraForged {terraforged@0.1.3 LOAD_REGISTRIES}
+		CookingForBlockheads_1.15.2-8.0.3.jar Cooking for Blockheads {cookingforblockheads@8.0.3 LOAD_REGISTRIES}
+		Controlling-6.1.5.6.jar Controlling {controlling@6.1.5.6 LOAD_REGISTRIES}
+		ftb-gui-library-1.0.0.14.jar FTB GUI Library {ftbguilibrary@1.0.0.14 LOAD_REGISTRIES}
+		Bookshelf-1.15.2-5.6.40.jar Bookshelf {bookshelf@5.6.40 LOAD_REGISTRIES}
+		Reliquary-1.15.2-1.3.4.1018.jar Reliquary {xreliquary@1.15.2-1.3.4.1018 LOAD_REGISTRIES}
+		guardvillagers-1.15.2-1.0.8.jar Guard Villagers {guardvillagers@1.0.7 LOAD_REGISTRIES}
+		randompatches-1.15.2-1.22.1.1.jar RandomPatches {randompatches@1.15.2-1.22.1.1 LOAD_REGISTRIES}
+		mcw-doors-1.0.1fix-mc1.15.1-2.jar Macaw's Doors {mcwdoors@1.0.1 LOAD_REGISTRIES}
+		Morpheus-1.15.2-4.2.50.jar Morpheus {morpheus@version LOAD_REGISTRIES}
+		MekanismGenerators-1.15.2-9.10.9.422.jar Mekanism: Generators {mekanismgenerators@9.10.9 ERROR}
+		dynviewdist-1.5.jar Dynamic view distance {dynview@1.5 LOAD_REGISTRIES}
+		JustEnoughResources-1.15.2-0.10.1.77.jar Just Enough Resources {jeresources@0.10.1.77 LOAD_REGISTRIES}
+		ftb-teams-1.0.0.6.jar FTB Teams {ftbteams@1.0.0.6 LOAD_REGISTRIES}
+		supplementaries-0.9.15_1.15.jar Supplementaries {supplementaries@0.9.15_1.15 LOAD_REGISTRIES}
+		corpse-1.15.2-1.0.10.jar Corpse {corpse@1.15.2-1.0.10 LOAD_REGISTRIES}
+		mcw-bridges-1.0.4fix-mc1.15.2.jar Macaw's Bridges {mcwbridges@1.0.4 LOAD_REGISTRIES}
+		dwmh-1.15.2-4.0.0.jar Dude! Where's my Horse? {dwmh@NONE LOAD_REGISTRIES}
+		torchmaster-2.2.2.jar Torchmaster {torchmaster@2.2.2 LOAD_REGISTRIES}
+		BiomesOPlenty-1.15.2-10.0.0.366-universal.jar Biomes O' Plenty {biomesoplenty@1.15.2-10.0.0.366 LOAD_REGISTRIES}
+		phosphor-forge-mc1.15.2-0.5.2+build.4.jar Phosphor {phosphor@0.5.2+build.4 LOAD_REGISTRIES}
+		mcw-trapdors-1.0.0fix-mc1.15.2.jar Macaw's Trapdoors {mcwtrpdoors@1.0.0 LOAD_REGISTRIES}
+		fairylights-3.0.15-1.15.2.jar Fairy Lights {fairylights@3.0.15 LOAD_REGISTRIES}
+		TrackAPI-1.15.2-forge-1.2.1.jar TrackAPI {trackapi@1.2 LOAD_REGISTRIES}
+		pamhc2foodextended-1.15.2-1.0.0.jar Pam's HarvestCraft 2 Food Extended {pamhc2foodextended@version LOAD_REGISTRIES}
+		curios-FORGE-1.15.2-2.0.2.6.jar Curios API {curios@FORGE-1.15.2-2.0.2.6 LOAD_REGISTRIES}
+		Botania-r1.15-388.jar Botania {botania@r1.15-388 LOAD_REGISTRIES}
+		tetra-1.15.2-2.18.1.jar Tetra {tetra@1.15.2-2.18.1 LOAD_REGISTRIES}
+		Patchouli-1.15.2-1.2-35.jar Patchouli {patchouli@1.15.2-1.2-35 LOAD_REGISTRIES}
+		collective-1.15.2-1.53.jar Collective {collective@1.53 LOAD_REGISTRIES}
+		constructionwand-1.15.2-1.7.jar Construction Wand {constructionwand@1.15.2-1.7 LOAD_REGISTRIES}
+		mcws-roofs-1.15.2-v2.0.0.jar Macaw's Roofs {mcwroofs@2.0.0 LOAD_REGISTRIES}
+		cc-tweaked-1.15.2-1.95.0.jar CC: Tweaked {computercraft@1.95.0 LOAD_REGISTRIES}
+		observerlib-1.15.2-1.3.2.jar ObserverLib {observerlib@1.15.2-1.3.2 LOAD_REGISTRIES}
+		mcw-furniture-1.0.1-mc1.15.1+1.15.2.jar Macaw's Furnitures {mcwfurnitures@1.0.1 LOAD_REGISTRIES}
+		bwncr-1.15.2-3.6.13.jar Bad Wither No Cookie Reloaded {bwncr@1.15.2-3.6.13 LOAD_REGISTRIES}
+		FastLeafDecay-v22.1.jar FastLeafDecay {fastleafdecay@v22.1 LOAD_REGISTRIES}
+		CodeChickenLib-1.15.2-3.3.4.395-universal.jar CodeChicken Lib {codechickenlib@3.3.4.395 LOAD_REGISTRIES}
+		BetterMineshaftsForge-1.15.2-1.3.1.jar YUNG's Better Mineshafts {bettermineshafts@1.15.2-1.3.1 LOAD_REGISTRIES}
+		biggerreactors-1.15.2-0.0.2-beta.jar Bigger Reactors {biggerreactors@0.0.0-alpha LOAD_REGISTRIES, phosphophyllite@0.0.0-alpha LOAD_REGISTRIES}
+		pamhc2trees-1.15.2-1.0.7.jar Pam's HarvestCraft 2 Fruit Trees {pamhc2trees@version LOAD_REGISTRIES}
+		jei-1.15.2-6.0.3.15.jar Just Enough Items {jei@6.0.3.15 LOAD_REGISTRIES}
+		lithium-mc1.15.2-forge-0.4.6-rc3-mod.jar Lithium {lithium@0.4.6-rc3 LOAD_REGISTRIES}
+		Abnormals-Core-1.15.2-1.0.6.jar Abnormals Core {abnormals_core@1.0.6 LOAD_REGISTRIES}
+		wildnature-1.15.2-3.0.jar WildNature {wildnature@3.0 LOAD_REGISTRIES}
+		Mekanism-1.15.2-9.10.9.422.jar Mekanism {mekanism@9.10.9 ERROR}
+		skeletonhs_1.15.2-1.4.jar Skeleton Horse Spawn {skeletonhs@1.4 LOAD_REGISTRIES}
+		Waystones_1.15.2-6.0.2.jar Waystones {waystones@6.0.2 LOAD_REGISTRIES}
+		Clumps-5.0.2.6.jar Clumps {clumps@5.0.2.6 LOAD_REGISTRIES}
+		mgui-1.15.2-2.1.1.jar mgui {mgui@2.1.1 LOAD_REGISTRIES}
+		appliedenergistics2-7.0.5.jar Applied Energistics 2 {appliedenergistics2@7.0.5 LOAD_REGISTRIES}
+		TravelersBackpack-1.15.2-4.0.8.jar Traveler's Backpack {travelersbackpack@4.0.8 LOAD_REGISTRIES}
+		DungeonCrawl-1.15.2-2.2.2.jar Dungeon Crawl {dungeoncrawl@2.2.2 LOAD_REGISTRIES}
+		mcjtylib-1.15-4.1.13.jar McJtyLib {mcjtylib@1.15-4.1.13 LOAD_REGISTRIES}
+		rftoolsbase-1.15-1.1.10.jar RFToolsBase {rftoolsbase@1.15-1.1.10 LOAD_REGISTRIES}
+		xnet-1.15-2.1.14.jar XNet {xnet@1.15-2.1.14 LOAD_REGISTRIES}
+		rftoolsstorage-1.15-1.1.13.jar RFToolsStorage {rftoolsstorage@1.15-1.1.13 LOAD_REGISTRIES}
+		EnderStorage-1.15.2-2.5.1.157-universal.jar EnderStorage {enderstorage@2.5.1.157 LOAD_REGISTRIES}
+		CraftTweaker-1.15.2-6.0.0.24.jar CraftTweaker {crafttweaker@6.0.0.24 LOAD_REGISTRIES}
+		mysticalworld-1.15.2-2.1.3.jar Mystical World {mysticalworld@1.15.2-2.1.3 LOAD_REGISTRIES}
+		ftb-chunks-1.1.1.17.jar FTB Chunks {ftbchunks@1.1.1.17 LOAD_REGISTRIES}
+		forge-1.15.2-31.2.47-universal.jar Forge {forge@31.2.47 LOAD_REGISTRIES}
+		Atum-1.15.2-2.1.12.jar Atum 2 {atum@1.15.2-2.1.12 LOAD_REGISTRIES}
+		ironchest-1.15.2-10.0.3.jar Iron Chests {ironchest@1.15.2-10.0.1 LOAD_REGISTRIES}
+		UniversalModCore-1.15.2-forge-1.0.1.jar Universal Mod Core {universalmodcore@1.0.1 LOAD_REGISTRIES}
+		forge-1.15.2-31.2.47-client.jar Minecraft {minecraft@1.15.2 LOAD_REGISTRIES}
+		cofh_core-1.15.2-1.0.2.jar CoFH Core {cofh_core@1.0.2 LOAD_REGISTRIES}
+		thermal-1.15.2-1.0.2.jar Thermal Series {thermal@1.0.2 LOAD_REGISTRIES}
+		thermal_expansion-1.15.2-1.0.2.jar Thermal Expansion {thermal_expansion@1.0.2 LOAD_REGISTRIES}
+		rftoolsutility-1.15-2.1.18.jar RFToolsUtility {rftoolsutility@1.15-2.1.18 LOAD_REGISTRIES}
+		unifix-1.3.jar UniFix {unifix@1.3 LOAD_REGISTRIES}
+		theoneprobe-1.15-2.0.7.jar The One Probe {theoneprobe@1.15-2.0.7 LOAD_REGISTRIES}
+		MouseTweaks-2.13-mc1.15.1.jar Mouse Tweaks {mousetweaks@2.13 LOAD_REGISTRIES}
+		titanium-1.15.2-2.4.2.jar Titanium {titanium@2.4.2 LOAD_REGISTRIES}
+		ImmersiveEngineering-1.15.2-4.1.1-125.jar Immersive Engineering {immersiveengineering@1.15.2-4.1.1-125 LOAD_REGISTRIES}
+		pamhc2crops-1.15.2-1.0.5.jar Pam's HarvestCraft 2 Crops {pamhc2crops@version LOAD_REGISTRIES}
+		rftoolsbuilder-1.15-2.1.16.jar RFToolsBuilder {rftoolsbuilder@1.15-2.1.16 LOAD_REGISTRIES}
+		jeiintegration_1.15.2-3.1.1.2.jar JEI Integration {jeiintegration@3.1.1.2 LOAD_REGISTRIES}
+		pamhc2foodcore-1.15.2-1.1.0.jar Pam's HarvestCraft 2 Food Core {pamhc2foodcore@version LOAD_REGISTRIES}
+		ftb-backups-2.1.0.2.jar FTB Utilities: Backups {ftbbackups@2.1.0.2 LOAD_REGISTRIES}
+		thermal_cultivation-1.15.2-1.0.2.jar Thermal Cultivation {thermal_cultivation@1.0.2 LOAD_REGISTRIES}
+		polymorph-FORGE-1.15.2-0.10.jar Polymorph {polymorph@FORGE-1.15.2-0.10 LOAD_REGISTRIES}
+		AutoRegLib-1.5-40.jar AutoRegLib {autoreglib@1.5-40 LOAD_REGISTRIES}
+		AkashicTome-1.3-13.jar Akashic Tome {akashictome@1.3-13 LOAD_REGISTRIES}
+		StorageDrawers-1.15.2-7.0.3.jar Storage Drawers {storagedrawers@1.15.2-7.0.3 LOAD_REGISTRIES}
+		FluxNetworks-1.15.2-5.0.3-4.jar Flux Networks {fluxnetworks@1.15.2-5.0.3-4 LOAD_REGISTRIES}
+		structurize-0.13.94-ALPHA-universal.jar Structurize {structurize@0.13.94-ALPHA LOAD_REGISTRIES}
+		mysticalmachinery-1.15.2-0.0.2.8.jar Mystical Machinery {mysticalmachinery@1.15.2-0.0.2.8 LOAD_REGISTRIES}
+		minecolonies-0.13.436-RELEASE-universal.jar Minecolonies {minecolonies@0.13.436-RELEASE LOAD_REGISTRIES}
+		Transport-1.15.2-2.4.1.jar Transport {transport@1.15.2-2.4.1 LOAD_REGISTRIES}
+		AppleSkin-mc1.15.2-forge-1.0.14.jar AppleSkin {appleskin@1.0.14 LOAD_REGISTRIES}
+		lootr-1.15.2-0.0.3.7.jar Lootr {lootr@1.15.2-0.0.3.7 LOAD_REGISTRIES}
+		engineersdecor-1.15.2-1.1.4.jar Engineer's Decor {engineersdecor@1.1.4 LOAD_REGISTRIES}
+		Cavern-Miner_1.15.2-v3.0.6.jar Cavern: Miner {cavern@3.0.6 LOAD_REGISTRIES}
+		thutcore-1.15.2-7.3.0.jar Thut Core {thutcore@7.3.0 LOAD_REGISTRIES, thutcrafts@7.3.0 LOAD_REGISTRIES}
+		thuttech-1.15.2-8.4.0.b.jar Thut Elevators {thuttech@8.4.0 LOAD_REGISTRIES}
+		EnderMail-1.15.2-1.1.3.jar Ender Mail {endermail@1.15.2-1.1.3 LOAD_REGISTRIES}
+		ExtendedNetherBackport-1.15.2-Beta-4.3.2.jar Extended Nether Backport {extendednether@4.3.2 LOAD_REGISTRIES}
+	Launched Version: MultiMC5
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: GeForce GTX 1080 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 452.06, NVIDIA Corporation
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	CPU: 12x Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz

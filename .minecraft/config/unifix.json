@@ -1,58 +1,107 @@
 [
-  {
-    "tag": "forge:nuggets/lead",
-    "prefer": "immersiveengineering:nugget_lead",
-    "exclude": [
-      "immersiveengineering:nugget_lead"
-    ]
-  },
-  {
-    "tag": "forge:ingots/silver",
-    "prefer": "immersiveengineering:ingot_silver",
-    "exclude": [
-      "immersiveengineering:ingot_silver"
-    ]
-  },
-  {
-    "tag": "forge:nuggets/silver",
-    "prefer": "mysticalworld:silver_nugget",
-    "exclude": [
-      "mysticalworld:silver_nugget"
-    ]
-  },
-  {
-    "tag": "forge:ingots/lead",
-    "prefer": "immersiveengineering:ingot_lead",
-    "exclude": [
-      "immersiveengineering:ingot_lead"
-    ]
-  },
-  {
-    "tag": "forge:ingots/tin",
-    "prefer": "mysticalworld:tin_ingot",
-    "exclude": [
-      "mysticalworld:tin_ingot"
-    ]
-  },
-  {
-    "tag": "forge:nuggets/copper",
-    "prefer": "mekanism:nugget_copper",
-    "exclude": [
-      "mekanism:nugget_copper"
-    ]
-  },
-  {
-    "tag": "forge:ingots/copper",
-    "prefer": "mekanism:ingot_copper",
-    "exclude": [
-      "mekanism:ingot_copper"
-    ]
-  },
-  {
-    "tag": "forge:nuggets/tin",
-    "prefer": "mekanism:nugget_tin",
-    "exclude": [
-      "mekanism:nugget_tin"
-    ]
-  }
+	{
+		"tag": "forge:ingots/coppper",
+		"prefer": "thermal:copper_ingot",
+		"exclude": [
+			"thermal:copper_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/tin",
+		"prefer": "thermal:tin_ingot",
+		"exclude": [
+			"thermal:tin_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/lead",
+		"prefer": "thermal:lead_ingot",
+		"exclude": [
+			"thermal:lead_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/silver",
+		"prefer": "thermal:silver_ingot",
+		"exclude": [
+			"thermal:silver_ingot"
+		]
+	},
+	{
+		"tag": "forge:ingots/nickel",
+		"prefer": "thermal:nickel_ingot",
+		"exclude": [
+			"thermal:nickel_ingot"
+		]
+	},
+		{
+		"tag": "forge:nuggets/coppper",
+		"prefer": "thermal:copper_nugget",
+		"exclude": [
+			"thermal:copper_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/tin",
+		"prefer": "thermal:tin_nugget",
+		"exclude": [
+			"thermal:tin_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/lead",
+		"prefer": "thermal:lead_nugget",
+		"exclude": [
+			"thermal:lead_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/silver",
+		"prefer": "thermal:silver_nugget",
+		"exclude": [
+			"thermal:silver_nugget"
+		]
+	},
+	{
+		"tag": "forge:nuggets/nickel",
+		"prefer": "thermal:nickel_nugget",
+		"exclude": [
+			"thermal:nickel_nugget"
+		]
+	},
+		{
+		"tag": "forge:dusts/coppper",
+		"prefer": "thermal:copper_dust",
+		"exclude": [
+			"thermal:copper_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/tin",
+		"prefer": "thermal:tin_dust",
+		"exclude": [
+			"thermal:tin_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/lead",
+		"prefer": "thermal:lead_dust",
+		"exclude": [
+			"thermal:lead_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/silver",
+		"prefer": "thermal:silver_dust",
+		"exclude": [
+			"thermal:silver_dust"
+		]
+	},
+	{
+		"tag": "forge:dusts/nickel",
+		"prefer": "thermal:nickel_dust",
+		"exclude": [
+			"thermal:nickel_dust"
+		]
+	}
 ]
