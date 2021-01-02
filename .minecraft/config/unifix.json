@@ -252,6 +252,48 @@
 		]
 	},
 	{
+		"tag": "forge:dusts/iron",
+		"prefer": "thermal:iron_dust",
+		"exclude": [
+			"thermal:iron_dust"
+		]
+	},
+		{
+		"tag": "forge:dusts/gold",
+		"prefer": "thermal:gold_dust",
+		"exclude": [
+			"thermal:gold_dust"
+		]
+	},
+		{
+		"tag": "forge:dusts/lapis",
+		"prefer": "thermal:lapis_dust",
+		"exclude": [
+			"thermal:lapis_dust"
+		]
+	},
+		{
+		"tag": "forge:dusts/diamond",
+		"prefer": "thermal:diamond_dust",
+		"exclude": [
+			"thermal:diamond_dust"
+		]
+	},
+		{
+		"tag": "forge:dusts/emerald",
+		"prefer": "thermal:emerald_dust",
+		"exclude": [
+			"thermal:emerald_dust"
+		]
+	},
+		{
+		"tag": "forge:dusts/quartz",
+		"prefer": "thermal:quartz_dust",
+		"exclude": [
+			"thermal:quartz_dust"
+		]
+	},
+	{
 		"tag": "forge:gems/apatite",
 		"prefer": "thermal:apatite_gem",
 		"exclude": [
