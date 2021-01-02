@@ -33,3 +33,9 @@ craftingTable.addShapeless("TinConvertFrom", <item:thermal:Tin_ingot>, [<item:wi
 
 craftingTable.addShapeless("SilverConvertTo", <item:wildnature:Silver_ingot>, [<item:thermal:Silver_ingot>]);
 craftingTable.addShapeless("SilverConvertFrom", <item:thermal:Silver_ingot>, [<item:wildnature:Silver_ingot>]);
+
+craftingTable.addShapeless("bronzeConvertTo", <item:wildnature:bronze_ingot>, [<item:thermal:bronze_ingot>]);
+craftingTable.addShapeless("bronzeConvertFrom", <item:thermal:bronze_ingot>, [<item:wildnature:bronze_ingot>]);
+
+craftingTable.addShapeless("steelConvertTo", <item:wildnature:steel_ingot>, [<item:thermal:steel_ingot>]);
+craftingTable.addShapeless("steelConvertFrom", <item:thermal:steel_ingot>, [<item:wildnature:steel_ingot>]);
