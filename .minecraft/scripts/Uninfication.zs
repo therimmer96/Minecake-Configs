@@ -39,3 +39,7 @@ craftingTable.addShapeless("bronzeConvertFrom", <item:thermal:bronze_ingot>, [<i
 
 craftingTable.addShapeless("steelConvertTo", <item:wildnature:steel_ingot>, [<tag:forge:ingots/steel>]);
 craftingTable.addShapeless("steelConvertFrom", <item:immersiveengineering:ingot_steel>, [<item:wildnature:steel_ingot>]);
+
+craftingTable.addShapeless("marbleConvertQuarkToAstral", <item:astralsorcery:marble_raw>, [<item:quark:marble>]);
+craftingTable.addShapeless("marbleConvertAstralToWildNature", <item:wildnature:marble>, [<item:astralsorcery:marble_raw>]);
+craftingTable.addShapeless("marbleConvertWildNatureToQuark", <item:quark:marble>, [<item:wildnature:marble_raw>]);
