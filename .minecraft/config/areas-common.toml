@@ -8,17 +8,17 @@
 	showHUDMessages = true
 	#The radius in blocks around the player in which to check for area signs.
 	#Range: 0 ~ 1000
-	radiusAroundPlayerToCheckForSigns = 100
+	radiusAroundPlayerToCheckForSigns = 500
 	#The prefix of the message whenever a player enters an area.
-	joinPrefix = "Entering "
+	joinPrefix = "~"
 	#The suffix of the message whenever a player enters an area.
-	joinSuffixx = "."
+	joinSuffixx = "~"
 	#The suffix of the message whenever a player leaves an area.
 	leaveSuffix = "."
 
 [Hud]
 	#When enabled, only shows the areaname in the HUD. When disabled, the prefixes and suffices will also be used.
-	HUDOnlyAreaName = false
+	HUDOnlyAreaName = true
 	#The green RGB value for the HUD message.
 	#Range: 0 ~ 255
 	HUD_RGB_G = 200
