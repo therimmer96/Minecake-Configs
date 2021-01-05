@@ -95,7 +95,7 @@
   },
   "climate": {
     "biomeShape": {
-      "biomeWarpStrength": 36,
+      "biomeWarpStrength": 500,
       "biomeSize": 380,
       "macroNoiseSize": 4,
       "biomeWarpScale": 280
@@ -115,12 +115,12 @@
       "scale": 4
     },
     "biomeEdgeShape": {
-      "octaves": 4,
-      "strength": 34,
-      "scale": 15,
-      "type": "PERLIN",
-      "lacunarity": 6.532,
-      "gain": 2.019
+      "octaves": 3,
+      "strength": 119,
+      "scale": 63,
+      "type": "SIMPLEX",
+      "lacunarity": 9.715,
+      "gain": 5.500
     }
   },
   "filters": {
