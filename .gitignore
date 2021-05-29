@@ -37,3 +37,4 @@ natives/META-INF/MANIFEST.MF
 .minecraft/crash-reports/
 .minecraft/logs/kubejs/server.txt
 .minecraft/local/ftbchunks/data/
+.vs/
