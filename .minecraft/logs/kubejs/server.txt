@@ -1,0 +1,21 @@
+[14:43:28] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[14:43:28] [INFO] SourceFile:33: Loaded script server_scripts:script.js in 0.003 s
+[14:43:28] [INFO] SourceFile:33: Loaded 1/1 KubeJS server scripts in 0.007 s
+[14:43:28] [INFO] Scripts loaded
+[14:43:28] [INFO] Scanning recipes...
+[14:43:29] [INFO] [blocks] Found 818 tags, added 0 objects, removed 0 objects
+[14:43:29] [INFO] [items] Found 2062 tags, added 0 objects, removed 0 objects
+[14:43:29] [INFO] [fluids] Found 28 tags, added 0 objects, removed 0 objects
+[14:43:29] [INFO] [entity_types] Found 17 tags, added 0 objects, removed 0 objects
+[14:43:29] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[14:43:29] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[14:43:29] [INFO] [tile_entity_types] Found 2 tags, added 0 objects, removed 0 objects
+[14:43:29] [WARN] Failed to parse recipe 'pamhc2foodextended:cottoncandyitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodextended:cottoncandyitem'
+[14:43:29] [WARN] Failed to parse recipe pamhc2foodextended:cottoncandyitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodextended:cottoncandyitem'
+[14:43:30] [WARN] Failed to parse recipe 'pamhc2foodextended:peachesandcreamoatmealitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:crop/peach'
+[14:43:30] [WARN] Failed to parse recipe pamhc2foodextended:peachesandcreamoatmealitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:crop/peach'
+[14:43:30] [WARN] Failed to parse recipe 'supplementaries:flower_box[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
+[14:43:30] [WARN] Failed to parse recipe supplementaries:flower_box[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:flower_box'
+[14:43:30] [WARN] Error parsing recipe immersivepetroleum:hydrotreater/sulfur_recovery[immersivepetroleum:hydrotreater]: {"type":"immersivepetroleum:hydrotreater","time":1,"energy":512,"result":{"fluid":"immersivepetroleum:diesel","amount":7},"input":{"tag":"forge:diesel_sulfur","amount":7},"secondary_input":{"tag":"minecraft:water","amount":7},"secondary_result":{"item":"immersiveengineering:dust_sulfur"}}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:43:30] [WARN] Error parsing recipe immersivepetroleum:distillationtower/oilcracking[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:bitumen"}],"results":[{"fluid":"immersivepetroleum:lubricant","amount":9},{"fluid":"immersivepetroleum:diesel_sulfur","amount":14},{"fluid":"immersivepetroleum:gasoline","amount":39}],"input":{"tag":"forge:crude_oil","amount":75},"time":1,"energy":2048}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:43:32] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects

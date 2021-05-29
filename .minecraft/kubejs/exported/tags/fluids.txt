@@ -1,0 +1,109 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 29, 2021, 2:37:23 PM
+
+#forge:lubricant
+- pneumaticcraft:lubricant
+- immersivepetroleum:lubricant
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#forge:crude_oil
+- pneumaticcraft:oil
+- immersivepetroleum:oil
+- thermal:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:biodiesel
+- pneumaticcraft:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethanol
+- pneumaticcraft:ethanol
+- immersiveengineering:ethanol
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- cofh_core:potion
+- immersiveengineering:potion
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
+#forge:gasoline
+- pneumaticcraft:gasoline
+- immersivepetroleum:gasoline
+
+#forge:steam
+- bigreactors:steam
+- bigreactors:steam_flowing
+- transport:flowing_steam
+- transport:steam
+
+#forge:experience
+- xreliquary:xp_juice_still
+- pneumaticcraft:memory_essence
+- cofh_core:experience
+
+#forge:diesel
+- pneumaticcraft:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid
+
+#forge:latex
+- thermal:latex
+
+#forge:kerosene
+- pneumaticcraft:kerosene
+
+#forge:honey
+- cofh_core:honey
+
+#forge:creosote
+- thermal:creosote
+- immersiveengineering:creosote
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight
+
+#forge:lpg
+- pneumaticcraft:lpg
+
+#forge:napalm
+- immersivepetroleum:napalm
