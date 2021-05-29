@@ -81,15 +81,15 @@
       "separation": 12
     },
     "otherStructures": {
-      "distance": 32,
+      "distance": 45,
       "separation": 8
     },
     "shipwrecks": {
-      "distance": 32,
+      "distance": 38,
       "separation": 16
     },
     "oceanRuins": {
-      "distance": 32,
+      "distance": 40,
       "separation": 16
     }
   },

@@ -686,7 +686,7 @@
 			maxY = 90
 			#Set this to set the overall chance for this feature to generate. The higher, the rarer.
 			#Range: 1 ~ 200000
-			generationChance = 270
+			generationChance = 400
 			#Set the amount this feature tries to generate per chunk
 			#Range: 1 ~ 128
 			generationAmount = 1
@@ -703,7 +703,7 @@
 			structureSize = 9
 			#Defines the average structure distance between two structures of this type
 			#Range: 1 ~ 150
-			structuredistance = 12
+			structuredistance = 60
 			#Defines the average structure separation/position-shift between two structures of this type
 			#Range: 1 ~ 100
 			structureseparation = 5
@@ -719,7 +719,7 @@
 			maxY = 160
 			#Set this to set the overall chance for this feature to generate. The higher, the rarer.
 			#Range: 1 ~ 200000
-			generationChance = 270
+			generationChance = 400
 			#Set the amount this feature tries to generate per chunk
 			#Range: 1 ~ 128
 			generationAmount = 1
@@ -736,7 +736,7 @@
 			structureSize = 19
 			#Defines the average structure distance between two structures of this type
 			#Range: 1 ~ 150
-			structuredistance = 12
+			structuredistance = 60
 			#Defines the average structure separation/position-shift between two structures of this type
 			#Range: 1 ~ 100
 			structureseparation = 5
@@ -752,7 +752,7 @@
 			maxY = 200
 			#Set this to set the overall chance for this feature to generate. The higher, the rarer.
 			#Range: 1 ~ 200000
-			generationChance = 280
+			generationChance = 400
 			#Set the amount this feature tries to generate per chunk
 			#Range: 1 ~ 128
 			generationAmount = 1
@@ -769,7 +769,7 @@
 			structureSize = 9
 			#Defines the average structure distance between two structures of this type
 			#Range: 1 ~ 150
-			structuredistance = 12
+			structuredistance = 40
 			#Defines the average structure separation/position-shift between two structures of this type
 			#Range: 1 ~ 100
 			structureseparation = 8
